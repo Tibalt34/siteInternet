@@ -1,0 +1,23 @@
+/*---------container-site-----------*/
+#container {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+/*--------fin-container-site-----------*/
+/*--------couleur-----------*/
+/*-------fin-couleur-----------*/
+/*-----------font import----------------*/
+@font-face {
+  font-family: "Coolvetica";
+  /*---------typo pour title----------*/
+  src: url("../fonts/coolvetica rg.ttf"); }
+@font-face {
+  font-family: "GeosansLight";
+  /*---------typo pour texte----------*/
+  src: url("../fonts/GeosansLight.ttf"); }
+/*----------fin-font import----------------*/
+/*--------police-----------*/
+/*-------fin police-----------*/
+
+/*# sourceMappingURL=main.css.map */
