@@ -8,9 +8,11 @@
 #langages{
   border-bottom: 3px solid $couleurPrincipale;
   margin-bottom: 25px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
-.titre-section-langages{
+#langages>h2{
   text-align: center;
   padding-bottom: 15px;
   padding-top: 25px;
@@ -32,6 +34,11 @@
   font-size: $tailleArticle;
 }
 
+#espaceImg>img{
+  margin:1%;
+}
+
+
 .langages{
   padding-top: 25px;
   width: 50%;
@@ -48,7 +55,7 @@
 
 .outils{
   position: absolute;
-  top: 96em;
+  top: 94em;
   right: 0;
   width: 50%;
   height: 400px;

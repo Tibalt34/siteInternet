@@ -7,10 +7,14 @@ text-transform: $maj;
 font-family:$fontTitle;
 }
 
+/******div englobant section formation & langages*****/
+.containerFormaLang{
+  background-color:#e8edfa ;
+}
+
 .texte{
   font-family:'GeosansLight';
   text-align: center;
-  background-color: #e8edfa;
   padding-left: 12%;
   padding-right: 10%;
   padding-top:2%;
