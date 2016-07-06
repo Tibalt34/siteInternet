@@ -1,0 +1,35 @@
+#Presentation{
+  font-family: "Coolvetica";
+  background-color:$couleurSecondaire;
+  height: 630px;
+
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px;
+
+  }
+  div{
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+
+    article{
+      margin-top: 105px;
+      text-align: center;
+      font-size: 20px;
+      h3{
+        width: 400px;
+      }
+      p{
+
+      }
+    }
+  }
+  footer{
+    position: relative;
+    bottom: 388px;
+    text-align: center;
+  }
+}

@@ -22,6 +22,30 @@
 /*-----texte en majuscule------*/
 /*----------taille police Article---------------*/
 /*-------fin police-----------*/
+#Presentation {
+  font-family: "Coolvetica";
+  background-color: #a3c6f5;
+  height: 630px; }
+  #Presentation h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px; }
+  #Presentation div {
+    width: inherit;
+    display: flex;
+    justify-content: space-around; }
+    #Presentation div article {
+      margin-top: 105px;
+      text-align: center;
+      font-size: 20px; }
+      #Presentation div article h3 {
+        width: 400px; }
+  #Presentation footer {
+    position: relative;
+    bottom: 388px;
+    text-align: center; }
+
 /**********partie formation**********/
 .titreformation > h2 {
   text-align: center;
@@ -92,7 +116,7 @@
 
 .outils {
   position: absolute;
-  top: 82em;
+  top: 96em;
   right: 0;
   width: 50%;
   height: 400px;
