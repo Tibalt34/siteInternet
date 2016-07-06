@@ -1,0 +1,26 @@
+/**********partie formation**********/
+
+.titreformation>h2{
+text-align: center;
+font-size: $tailleTitre;
+text-transform: $maj;
+font-family:$fontTitle;
+}
+
+.texte{
+  font-family:'GeosansLight';
+  text-align: center;
+  background-color: #e8edfa;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:2%;
+  padding-bottom:3%;
+}
+
+.texte>p{
+background-color: #a3c6f5;
+padding: 4%;
+text-align: left;
+box-shadow:-20px 15px 0px $couleurPrincipale;
+font-size: $tailleArticle;
+}

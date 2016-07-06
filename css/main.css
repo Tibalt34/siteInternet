@@ -18,6 +18,114 @@
   src: url("../fonts/GeosansLight.ttf"); }
 /*----------fin-font import----------------*/
 /*--------police-----------*/
+/*-----------taille police Titre--------------*/
+/*-----texte en majuscule------*/
+/*----------taille police Article---------------*/
 /*-------fin police-----------*/
+#Presentation {
+  font-family: "Coolvetica";
+  background-color: #a3c6f5;
+  height: 630px; }
+  #Presentation h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px; }
+  #Presentation div {
+    width: inherit;
+    display: flex;
+    justify-content: space-around; }
+    #Presentation div article {
+      margin-top: 105px;
+      text-align: center;
+      font-size: 20px; }
+      #Presentation div article h3 {
+        width: 400px; }
+  #Presentation footer {
+    position: relative;
+    bottom: 388px;
+    text-align: center; }
+
+/**********partie formation**********/
+.titreformation > h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Coolvetica"; }
+
+.texte {
+  font-family: 'GeosansLight';
+  text-align: center;
+  background-color: #e8edfa;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 3%; }
+
+.texte > p {
+  background-color: #a3c6f5;
+  padding: 4%;
+  text-align: left;
+  box-shadow: -20px 15px 0px #71a1e1;
+  font-size: 15px; }
+
+#couleur-langage {
+  background-color: #e8edfa;
+  padding-bottom: 45px;
+  margin-top: -20px; }
+
+#langages {
+  border-bottom: 3px solid #71a1e1;
+  margin-left: 380px;
+  margin-right: 380px;
+  margin-bottom: 25px; }
+
+.titre-section-langages {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  margin-left: -400px;
+  margin-right: -400px;
+  border-top: 1px solid black;
+  font-size: 40px; }
+
+.titre-langages {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #444444;
+  font-family: "GeosansLight";
+  font-size: 40px; }
+
+.texte-langages {
+  text-align: center;
+  color: #444444;
+  font-family: "GeosansLight";
+  font-size: 15px; }
+
+.langages {
+  padding-top: 25px;
+  width: 50%;
+  height: 400px;
+  border-right: 2px solid #a3c6f5;
+  margin-top: 40px; }
+
+.langages > img {
+  width: 15%;
+  position: relative;
+  left: 170px; }
+
+.outils {
+  position: absolute;
+  top: 96em;
+  right: 0;
+  width: 50%;
+  height: 400px;
+  padding-top: 40px;
+  margin-top: 40px; }
+
+.outils > img {
+  width: 15%;
+  position: relative;
+  left: 170px; }
 
 /*# sourceMappingURL=main.css.map */
