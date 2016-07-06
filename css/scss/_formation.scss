@@ -1,11 +1,10 @@
 /**********partie formation**********/
 
-.titreformation{
+.titreformation>h2{
 text-align: center;
-}
-
-@font-face {
-  font-family: "GeosansLight";
+font-size: $tailleTitre;
+text-transform: $maj;
+font-family:$fontTitle;
 }
 
 .texte{
@@ -22,5 +21,6 @@ text-align: center;
 background-color: #a3c6f5;
 padding: 4%;
 text-align: left;
-box-shadow:13px 13px 0px #5999D9;
+box-shadow:-20px 15px 0px $couleurPrincipale;
+font-size: $tailleArticle;
 }
