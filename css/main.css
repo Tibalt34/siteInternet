@@ -42,4 +42,63 @@
   text-align: left;
   box-shadow: 13px 13px 0px #5999D9; }
 
+#couleur-langage {
+  background-color: #e8edfa;
+  padding-bottom: 45px;
+  margin-top: -20px; }
+
+#langages {
+  border-bottom: 3px solid #71a1e1;
+  margin-left: 380px;
+  margin-right: 380px;
+  margin-bottom: 25px; }
+
+.titre-section-langages {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  margin-left: -400px;
+  margin-right: -400px;
+  border-top: 1px solid black;
+  font-size: 40px; }
+
+.titre-langages {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #444444;
+  font-family: "GeosansLight";
+  font-size: 40px; }
+
+.texte-langages {
+  text-align: center;
+  color: #444444;
+  font-family: "GeosansLight";
+  font-size: 15px; }
+
+.langages {
+  padding-top: 25px;
+  width: 50%;
+  height: 400px;
+  border-right: 2px solid #a3c6f5;
+  margin-top: 40px; }
+
+.langages > img {
+  width: 15%;
+  position: relative;
+  left: 170px; }
+
+.outils {
+  position: absolute;
+  top: 82em;
+  right: 0;
+  width: 50%;
+  height: 400px;
+  padding-top: 40px;
+  margin-top: 40px; }
+
+.outils > img {
+  width: 15%;
+  position: relative;
+  left: 170px; }
+
 /*# sourceMappingURL=main.css.map */
