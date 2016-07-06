@@ -41,9 +41,9 @@
       font-size: 20px; }
       #Presentation div article h3 {
         width: 400px; }
-  #Presentation footer {
+  #Presentation #footerPres {
     position: relative;
-    bottom: 388px;
+    bottom: 349px;
     text-align: center; }
 
 /**********partie formation**********/
@@ -57,8 +57,8 @@
   font-family: 'GeosansLight';
   text-align: center;
   background-color: #e8edfa;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 12%;
+  padding-right: 10%;
   padding-top: 2%;
   padding-bottom: 3%; }
 
@@ -69,6 +69,11 @@
   box-shadow: -20px 15px 0px #71a1e1;
   font-size: 15px; }
 
+.separation {
+  border-bottom: 1px solid black;
+  margin-left: 10%;
+  margin-right: 10%; }
+
 #couleur-langage {
   background-color: #e8edfa;
   padding-bottom: 45px;
@@ -76,17 +81,12 @@
 
 #langages {
   border-bottom: 3px solid #71a1e1;
-  margin-left: 380px;
-  margin-right: 380px;
   margin-bottom: 25px; }
 
 .titre-section-langages {
   text-align: center;
   padding-bottom: 15px;
   padding-top: 25px;
-  margin-left: -400px;
-  margin-right: -400px;
-  border-top: 1px solid black;
   font-size: 40px; }
 
 .titre-langages {
@@ -127,5 +127,33 @@
   width: 15%;
   position: relative;
   left: 170px; }
+
+.partenaire {
+  border: 1px #fff solid;
+  text-align: center; }
+
+.soulignement {
+  margin: 10px auto 30px;
+  padding: 0;
+  max-width: 512px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+  border-color: #71a1e1; }
+
+.soulignement:after {
+  display: inline-block;
+  position: relative; }
+
+#footerParte {
+  margin-top: 20px;
+  background-color: #a3c6f5;
+  height: 150px; }
+
+#divpartenaire > h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */
