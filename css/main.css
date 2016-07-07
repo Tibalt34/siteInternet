@@ -32,7 +32,6 @@
     font-size: 40px;
     padding-top: 5px; }
   #Presentation div {
-    width: inherit;
     display: flex;
     justify-content: space-around; }
     #Presentation div article {
@@ -46,6 +45,14 @@
     bottom: 349px;
     text-align: center; }
 
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  #Presentation {
+    height: auto; }
+    #Presentation div {
+      display: block; }
+      #Presentation div h3 {
+        margin: auto;
+        margin-bottom: 10px; } }
 /**********partie formation**********/
 .titreformation > h2 {
   text-align: center;
@@ -121,6 +128,9 @@
   width: 15%;
   position: relative;
   left: 170px; }
+
+#espaceImg2 > img {
+  margin: 1%; }
 
 .outils {
   position: absolute;
