@@ -146,6 +146,27 @@
   position: relative;
   left: 170px; }
 
+#presse {
+  background-color: #71a1e1;
+  padding-bottom: 50px;
+  color: white; }
+  #presse h2 {
+    text-align: center; }
+  #presse h3 {
+    text-align: center; }
+  #presse #imgPresse {
+    display: flex; }
+    #presse #imgPresse div {
+      width: 350px;
+      margin: auto;
+      border: 2px solid red;
+      height: 300px;
+      text-align: center;
+      background-color: #95baee; }
+      #presse #imgPresse div p {
+        border: 2px solid green;
+        height: auto; }
+
 .partenaire {
   border: 1px #fff solid;
   text-align: center; }

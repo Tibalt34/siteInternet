@@ -1,0 +1,29 @@
+#presse{
+  background-color: $couleurPrincipale;
+  padding-bottom: 50px;
+  color: white;
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  #imgPresse{
+    display: flex;//sur les 3 articles
+    div{
+      width: 350px;
+      margin: auto;
+      border: 2px solid red;
+      height: 300px;
+      text-align: center;
+      background-color: #95baee;
+      img{  //agit sur toute les imgages de la section Presse
+      }
+      p{
+        border: 2px solid green;
+        height: auto;
+      }
+    }
+  }
+
+}
