@@ -38,8 +38,6 @@
       margin-top: 105px;
       text-align: center;
       font-size: 20px; }
-      #Presentation div article h3 {
-        width: 400px; }
   #Presentation #footerPres {
     position: relative;
     bottom: 349px;
@@ -88,63 +86,58 @@
   background-color: #e8edfa;
   padding-bottom: 45px;
   margin-top: -20px; }
-
-#langages {
-  border-bottom: 3px solid #71a1e1;
-  margin-bottom: 25px;
-  margin-right: 25%;
-  margin-left: 25%; }
-
-#langages > h2 {
-  text-align: center;
-  padding-bottom: 15px;
-  padding-top: 25px;
-  font-size: 40px; }
-
-.titre-langages {
-  text-align: center;
-  padding-bottom: 40px;
-  color: #444444;
-  font-family: "GeosansLight";
-  font-size: 40px; }
-
-.texte-langages {
-  text-align: center;
-  color: #444444;
-  font-family: "GeosansLight";
-  font-size: 15px; }
+  #couleur-langage header {
+    border-bottom: 3px solid #71a1e1;
+    margin-bottom: 25px;
+    margin-right: 25%;
+    margin-left: 25%; }
+    #couleur-langage header h2 {
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 25px;
+      font-size: 40px; }
+  #couleur-langage h2 {
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: "GeosansLight"; }
+  #couleur-langage div {
+    display: flex;
+    flex-direction: row; }
+    #couleur-langage div h3 {
+      text-align: center;
+      padding-bottom: 40px;
+      color: #444444;
+      font-family: "GeosansLight";
+      font-size: 15px; }
+  #couleur-langage article > h3 {
+    font-size: 40px; }
 
 #espaceImg > img {
   margin: 1%; }
 
 .langages {
-  padding-top: 25px;
+  padding-top: 40px;
   width: 50%;
-  height: 400px;
   border-right: 2px solid #a3c6f5;
   margin-top: 40px; }
 
 .langages > img {
   width: 15%;
   position: relative;
-  left: 170px; }
+  left: 25%; }
 
 #espaceImg2 > img {
   margin: 1%; }
 
 .outils {
-  position: absolute;
-  top: 94em;
-  right: 0;
   width: 50%;
-  height: 400px;
   padding-top: 40px;
   margin-top: 40px; }
 
 .outils > img {
   width: 15%;
   position: relative;
-  left: 170px; }
+  left: 25%; }
 
 .partenaire {
   border: 1px #fff solid;
