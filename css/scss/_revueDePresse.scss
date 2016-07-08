@@ -17,7 +17,8 @@
       height: 300px;
       text-align: center;
       background-color: #95baee;
-      img{  //agit sur toute les imgages de la section Presse
+      img{
+        width:100%;  //agit sur toute les imgages de la section Presse
       }
       p{
         border: 2px solid green;
