@@ -144,24 +144,24 @@
 #presse {
   background-color: #71a1e1;
   padding-bottom: 50px;
-  color: white; }
+  color: white;
+  font-family: "GeosansLight"; }
   #presse h2 {
-    text-align: center; }
+    text-align: center;
+    font-family: "Coolvetica"; }
   #presse h3 {
     text-align: center; }
   #presse #imgPresse {
-    display: flex; }
+    display: flex;
+    justify-content: space-around; }
     #presse #imgPresse div {
-      width: 350px;
-      margin: auto;
-      border: 2px solid red;
-      height: 300px;
+      width: 20%;
       text-align: center;
       background-color: #95baee; }
       #presse #imgPresse div img {
-        width: 100%; }
+        width: 100%;
+        padding: 15px; }
       #presse #imgPresse div p {
-        border: 2px solid green;
         height: auto; }
 
 #contact {
