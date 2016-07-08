@@ -1,0 +1,59 @@
+#sectionPromotion{
+  background-color: #e8edf3;
+  padding-bottom: 5%;
+}
+.titrePromotion{
+  background-color: white;
+}
+h4{//titre a changer
+  /*padding-top: 30px;*/
+  padding-bottom: 30px;
+  text-align: center;
+}
+#containerPromotion{
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+
+table, td, th{
+  border: 1px solid black;
+  text-align: center;
+}
+
+#profils{
+	overflow: hidden;
+  width: 400px;
+  /*margin-left: 3%;*/
+  background-color: #a4c6f4;
+  border: 1px solid black;
+}
+
+#profils div{
+	position: absolute;
+	display: none;
+}
+#profils div[name="fabrice"]{
+	display: block;
+}
+
+#containerCarouzel{
+	overflow: hidden;
+	width: 400px;
+	height: 500px;
+  /*margin-left: 5%;*/
+}
+
+#carouzel{
+	position: relative;
+	transition:top 2s;
+}
+
+#carouzel div{
+	border: 1px solid black;
+	width: 400px;
+	height: 500px;
+}
