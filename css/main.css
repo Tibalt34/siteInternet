@@ -217,6 +217,9 @@ table, td, th {
   width: 400px;
   height: 500px; }
 
+a:hover {
+  cursor: pointer; }
+
 #contact {
   text-align: center;
   font-size: 40px; }
