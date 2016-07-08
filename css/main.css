@@ -176,6 +176,14 @@ h4 {
   padding-bottom: 30px;
   text-align: center; }
 
+#containerPromotion {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+  justify-content: space-around; }
+
 table, td, th {
   border: 1px solid black;
   text-align: center; }
