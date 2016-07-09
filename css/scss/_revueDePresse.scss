@@ -18,11 +18,19 @@
       text-align: center;
       background-color: #95baee;
       img{
-        width:100%;  //agit sur toute les imgages de la section Presse
-        padding: 15px;
+        width: 75%;
+        /* padding: 15%; */
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 30px;
       }
       p{
+        margin-top: 35px;
         height: auto;
+      }
+      header{
+        display: flex;
+        float: right;
       }
     }
   }
