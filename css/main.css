@@ -279,10 +279,14 @@ a {
 #footerParte {
   margin-top: 20px;
   background-color: #a3c6f5;
+<<<<<<< HEAD
   height: 150px;
   text-align: center;
   letter-spacing: 5px;
   padding: 100px; }
+=======
+  height: 150px; }
+>>>>>>> 7a7202079f8dc9b7a4befb2d5f990e0c3683bf6d
 
 #divpartenaire > h2 {
   font-size: 40px; }
