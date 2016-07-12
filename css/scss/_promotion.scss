@@ -48,12 +48,16 @@ table, td, th{
 }
 
 #carouzel{
+  width : 7200px; //(18 * 400px)
 	position: relative;
-	top:0;
-	transition:top 2s;
+	left:0;
+	transition:left 2s;
+  font-size: 0; // pour virer l'espace entre les deux div
 }
 
 #carouzel div{
+  display: inline-block;
+  font-size: 20px; //pour verifier le bon foctionnement a supprimer au deploiement
 	border: 1px solid black;
 	width: 400px;
 	height: 500px;

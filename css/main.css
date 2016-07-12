@@ -216,11 +216,15 @@ table, td, th {
   /*margin-left: 5%;*/ }
 
 #carouzel {
+  width: 7200px;
   position: relative;
-  top: 0;
-  transition: top 2s; }
+  left: 0;
+  transition: left 2s;
+  font-size: 0; }
 
 #carouzel div {
+  display: inline-block;
+  font-size: 20px;
   border: 1px solid black;
   width: 400px;
   height: 500px; }
