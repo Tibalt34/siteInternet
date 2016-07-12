@@ -1,0 +1,38 @@
+/**********partie formation**********/
+
+.titreformation>h2{
+text-align: center;
+font-size: $tailleTitre;
+text-transform: $maj;
+font-family:$fontTitle;
+}
+
+/******div englobant section formation & langages*****/
+.containerFormaLang{
+  background-color:#e8edfa ;
+}
+
+.texte{
+  font-family:'GeosansLight';
+  text-align: center;
+  padding-left: 12%;
+  padding-right: 10%;
+  padding-top:2%;
+  padding-bottom:3%;
+}
+
+.texte>p{
+background-color: #a3c6f5;
+padding: 4%;
+text-align: left;
+box-shadow:-20px 15px 0px $couleurPrincipale;
+font-size: $tailleArticle;
+
+
+}
+
+.separation{
+  border-bottom: 1px solid black;
+  margin-left: 10%;
+  margin-right:10%;
+}
