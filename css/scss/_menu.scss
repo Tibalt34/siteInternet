@@ -1,0 +1,59 @@
+#logoMenu{
+  margin-top: -2px;
+  margin-left: 5px;
+  width: 82px;
+  height: 38px;
+}
+
+.navbar{
+  z-index: 10000;
+  margin-bottom: -30px;
+  height: 70px;
+}
+
+.navbar-nav li a{
+  line-height: 35px;
+}
+
+li a{
+  font-size: 1.5em;
+}
+
+.separationmenu{
+  height: 60px;
+  margin-top: 5px;
+  border-width: 3px 3px 3px 0;
+  border-style: solid;
+  -webkit-border-image:
+    -webkit-gradient(linear, 0 0, 100% 0, from($couleurPrincipale), to(rgba(229, 0, 67, 0))) 1 100%;
+  -webkit-border-image:
+    -webkit-linear-gradient(bottom, $couleurPrincipale, rgba(229, 0, 67, 1)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(bottom, $couleurPrincipale, rgba(229, 0, 67, 1)) 1 100%;
+  -o-border-image:
+    -o-linear-gradient(bottom, $couleurPrincipale, rgba(229, 0, 67, 1)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, $couleurPrincipale, rgba(229, 0, 67, 1)) 1 100%;
+}
+
+.separationmenucontact{
+  margin-top: 7px;
+}
+
+.navbar-default .navbar-nav >li >a{
+  font-family: $fontTitle;
+  color: black;
+}
+
+h1{
+  margin: 0;
+}
+
+.affix{
+  top: 0;
+  width: 100%;
+}
+
+.affix + section{
+  padding-top: 70px;
+}
