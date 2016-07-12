@@ -16,6 +16,7 @@ $couleurTraitVertical : #e50043;
 $couleurTexte : #444444;
 $couleurRubrique : white;
 
+
 /*-------fin-couleur-----------*/
 
 /*-----------font import----------------*/
@@ -26,15 +27,18 @@ $couleurRubrique : white;
 @font-face {
   font-family: "GeosansLight";
   /*---------typo pour texte----------*/
-  src: url("../fonts/GeosansLight.ttf"); } 
+  src: url("../fonts/GeosansLight.ttf"); }
 /*----------fin-font import----------------*/
 
 /*--------police-----------*/
-$fontTitle :  "Coolvetica";
+$fontTitle : "Coolvetica";
 $fontTexte : "GeosansLight";
 
 /*-----------taille police Titre--------------*/
 $tailleTitre : 40px;
+/*-----texte en majuscule------*/
+$maj : uppercase;
+
 /*----------taille police Article---------------*/
 $tailleArticle : 15px;
 /*-------fin police-----------*/
