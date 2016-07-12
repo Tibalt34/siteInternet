@@ -87,7 +87,8 @@
 #couleur-langage {
   background-color: #e8edfa;
   padding-bottom: 45px;
-  margin-top: -20px; }
+  margin-top: -20px;
+  margin-bottom: -20px; }
   #couleur-langage header {
     border-bottom: 3px solid #71a1e1;
     margin-bottom: 25px;
