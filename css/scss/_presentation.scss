@@ -11,7 +11,6 @@
 
   }
   div{
-    width: inherit;
     display: flex;
     justify-content: space-around;
 
@@ -19,17 +18,32 @@
       margin-top: 105px;
       text-align: center;
       font-size: 20px;
-      h3{
-        width: 400px;
-      }
-      p{
 
+      p{
+        font-size: 15px;
       }
     }
   }
-  footer{
+  #footerPres{
     position: relative;
-    bottom: 388px;
+    bottom:349px;
     text-align: center;
+  }
+}
+
+@media (min-width:992px) {
+//A partir de la taille MD de bootstrap
+}
+@media screen and(min-width: 0px)and(max-width: 992px){
+//de 0px jusqu'a la taille MD de bootstrap
+  #Presentation{
+    height: auto;
+    div{
+      display: block;
+      h3{
+        margin:auto;
+        margin-bottom:10px;
+      }
+    }
   }
 }
