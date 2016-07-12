@@ -1,0 +1,31 @@
+.partenaire{
+ border: 1px #fff solid;
+ text-align: center //alignement du texte
+}
+
+// ligne de soulignement des sou titre de mes articles
+.soulignement {
+    margin: 10px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align:center;
+    border-color: #71a1e1; // couleur de la barre
+}
+    .soulignement:after {
+      display: inline-block;
+      position: relative;
+    }
+
+#footerParte{
+  margin-top: 20px;
+  background-color: #a3c6f5;
+  height: 150px;
+}
+
+#divpartenaire>h2{
+  font-size: $tailleTitre;
+}h3{
+  font-size: $tailleArticle;
+}

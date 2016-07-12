@@ -1,0 +1,78 @@
+#couleur-langage{
+  background-color: $couleurBackground;
+  padding-bottom: 45px;
+  margin-top: -20px;
+
+  header{
+    border-bottom: 3px solid $couleurPrincipale;
+    margin-bottom: 25px;
+    margin-right: 25%;
+    margin-left: 25%;
+    h2{
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 25px;
+      font-size: $tailleTitre;
+     }
+    }
+    h2{
+      font-size: $tailleArticle;
+      margin-left: 20px;
+      font-family:$fontTexte;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+
+      h3{
+        text-align: center;
+        padding-bottom: 40px;
+        color: $couleurTexte;
+        font-family: $fontTexte;
+        font-size:$tailleArticle;
+      }
+    }
+    article > h3{
+      font-size: $tailleTitre;
+    }
+  }
+
+
+
+
+
+
+
+#espaceImg>img{
+  margin:1%;
+}
+
+
+.langages{
+  padding-top: 40px;
+  width: 50%;
+  border-right: 2px solid $couleurSecondaire;
+  margin-top: 40px;
+}
+
+.langages>img{
+  width: 15%;
+  position: relative;
+  left: 25%;
+}
+
+#espaceImg2>img{
+  margin:1%;
+}
+
+.outils{
+  width: 50%;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.outils>img{
+  width: 15%;
+  position: relative;
+  left: 25%;
+}
