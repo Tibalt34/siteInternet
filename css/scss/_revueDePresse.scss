@@ -1,0 +1,38 @@
+#presse{
+  background-color: $couleurPrincipale;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "GeosansLight";
+  h2{
+    text-align: center;
+    font-family: "Coolvetica";
+  }
+  h3{
+    text-align: center;
+  }
+  #imgPresse{
+    display: flex;//sur les 3 articles
+    justify-content: space-around;
+    div{
+      width: 20%;
+      text-align: center;
+      background-color: #95baee;
+      img{
+        width: 75%;
+        /* padding: 15%; */
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 30px;
+      }
+      p{
+        margin-top: 35px;
+        height: auto;
+      }
+      header{
+        display: flex;
+        float: right;
+      }
+    }
+  }
+
+}
