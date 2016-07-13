@@ -14,6 +14,7 @@ $(window).load(function(){
 		//on fait une multiplication par 2 car il y a deux colones.
 		var index = idx+idxp*2;
 
+
 		//on gere la position de l'element afficher en multipliant 'lindex de l'apprenant * la largeur du viewport
 		$("#carouzel").css({left : -(index*400)+"px"});
 		//on cache l'ancien profil qui etait affiché (cette ligne ne sera pas affecter au premier chargement de la page)

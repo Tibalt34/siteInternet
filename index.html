@@ -13,55 +13,56 @@
               <META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0, shrink-to-fit=no">
                 <!-- Import Bootstrap AVANT le fichier css (afin de pouvoir overight) => a tester -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-                <link rel="stylesheet" href="./css/main.css">
+
                 <!-- Import de Jquery -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
                 <!-- Import de Bootstrap.js -->
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
                 <script src="./script/script.js"></script>
+                <script src="./script/smoothscroll.js"></script>
+                <link rel="stylesheet" href="./css/main.css">
                 <title>Beweb</title>
               </head>
-              <body>
-                <div>
-                  ​
-                  <!-- section page accueil -->
-                  <div>
-                    <!-- img/video -->
-                  </div>
+              <body data-spy="scroll" data-target=".navbar" data-offset="50">
+                <!-- section page accueil -->
+                <header id="entete">
+
+                <div class="opaque">
+                <div class="logo">
+                  <img src="./img/logoBeweb.png" class="img-responsive" alt="logoBeWeb"/>
+                <div id="mouse">
+                  <a href="#Presentation" class="js-scrollTo"><img src="./img/mouse.png"/></a>
+                </div>
+                </div>
+                </div>
+
+            ​   </header>
                   ​
                   <!-- nav -->
 
-                  <nav class="navbar navbar-default">
+                  <nav class="navbar navbar-default" data-spy="affix" data-offset-top="700">
                     <div class="container-fluid">
                       <div class="navbar-header">
-                        <!-- Petits logos qui serviront pour le menu responsive_____________________-->
+                      <!-- Petits logos qui serviront pour le menu responsive_____________________-->
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#maBarreDeNav">
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
                         <!-- C'est ici que l'on placera le logo BEWEB_________________________-->
-                        <a class="navbar-brand" href="#">LogoBeWeb</a>
+                        <a class="navbar-brand" href="#"><img id="logoMenu" src="./img/logoBeweb.png" alt="logoBeWebmenu"/></a>
                       </div>
                       <div class="collapse navbar-collapse" id="maBarreDeNav">
                         <!-- Liens vers les sections ! _______________________________________-->
-                        <ul class="nav navbar-nav">
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#ecole">Ecole</a></li>
-                          <li><a href="#promotions">Promotions</a></li>
-                          <li><a href="#contact">Contacts</a></li>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li class="separationmenu"><a class="js-scrollTo" href="#">Home</a></li>
+                          <li class="separationmenu"><a class="js-scrollTo" href="#Presentation">Ecole</a></li>
+                          <li class="separationmenu"><a class="js-scrollTo" href="#sectionPromotion">Promotions</a></li>
+                          <li class="separationmenucontact"><a class="js-scrollTo"href="#contact">Contact</a></li>
                         </ul>
                       </div>
                     </div>
                   </nav>
-
-
-
-
-
-                  ​    <div>
-                    <!-- livres d'or -->
-                  </div>
 
                   <!-- section ecole/formation -->
 
@@ -114,11 +115,13 @@
                   </div>
                 </div>
 
+
         <div id="couleur-langage">
           <header>
             <h2>Langages et Framework</h2>
           </header>
           <h2>Le développement « Front-End » (ce qu’on voit à l’écran, avec HTML, CSS et Javascript par exemple), le développement « Back-End » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</h3>
+
             <div>
               <article class="langages" id="espaceImg">
                 <h3 class="titre-langages">Langages</h3>
@@ -143,41 +146,39 @@
           </div>
         </div>
         <div id="presse">
-          <h2>Revue de presse</h2>
+          <h2 class="revue">REVUE DE PRESSE</h2>
 
-          <h3>On parle de nous</h3>
+          <h3 class="texte-revue">On parle de nous</h3>
           <div id="imgPresse">
-            <div>
-              <img src="./img/tv_sud2.png" alt="tv sud" />
-              <p>TV sud est venu c'est la classe on est tous des BG</p>
-              <header>
-                <a><img src="./img/icon_press.png" alt="icone press1" /></a>
-                <header>
-                  <p>Voir l'article</p>
-                </header>
-              </div>
 
-              <div>
-                <img src="./img/midi_libre.png" alt="" />
-                <p>Petit mot expliquant que midi libre a fait un article et avec le lien</p>
-                <header>
-                  <a><img src="./img/icon_press.png" alt="icone press2" /></a>
-
-                  <p>Voir l'article</p>
-                </header>
-              </div>
-
-              <div>
-                <img src="./img/gazette2.png" alt="" />
-                <p>La Gazette a également fait un article sur nous blablalblalalaallal</p>
-                <header>
-
-                  <a><img src="./img/icon_press.png" alt="icone press3" /></a>
-                  <p>Voir l'article</p>
-                </header>
-              </div>
-            </div>
+          <div class="tvsud">
+          <img src="./img/tv_sud2.png" alt="" />
+          <p><b>"</b> Quelque soit leur parcours,<br> 18 jeunes apprennent les joies du développement web à BeWeb. <b>"</b></p>
+          <header>
+            <p>Voir l'article</p>
+            <a href="http://www.tvsud.fr/?keys=beweb" target="new"><img src="./img/icon_press.png" class="icone" alt="" /></a>
+         </header>
           </div>
+
+          <div class="midilibre">
+          <img src="./img/midi_libre.png" alt="" />
+          <p><b>"</b> Le numérique c'est l'avenir,<br> les apprenants de BeWeb l'ont compris et <br>se forment avec l'aide de Loïc Derrieux,<br> leur formateur. <b>"</b></p>
+          <header class="midi-libre">
+            <p>Voir l'article</p>
+            <a href="http://www.midilibre.fr/2016/04/19/grande-ecole-du-numerique-c-est-parti-pour-l-an-1-pour-le-financement-les-regards-sont-tournes-vers-la-region,1319497.php" target="new"><img src="./img/icon_press.png" class="icone" alt="" /></a>
+         </header>
+        </div>
+
+        <div class="gazette">
+          <img src="./img/gazette2.png" alt="" />
+          <p><b>"</b> Motivation, passion et dynamisme,<br> voilà quelques mots pour décrire les apprenants ayant intégrés BeWeb. <b>"</b></p>
+          <header>
+            <p>Voir l'article</p>
+            <a href="" target="new"><img src="./img/icon_press.png" class="icone" alt="" /></a>
+         </header>
+        </div>
+        </div>
+      </div>
           ​
           <!-- section Promo -->
           <section id="sectionPromotion">
@@ -489,10 +490,13 @@
                 </div>
               </div>
 
-            </div>
+        <!-- logo des langages -->
+      </div>
+      </div>
 
-          </section>
-          <!-- fin section promo  -->
+​
+​
+
           ​
           <!-- section contact -->
           <section id="sectionContact">

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*---------container-site-----------*/
 #container {
   margin: 0;
@@ -22,15 +23,103 @@
 /*-----texte en majuscule------*/
 /*----------taille police Article---------------*/
 /*-------fin police-----------*/
+#entete {
+  background-image: url("../img/photoclasse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; }
+
+.opaque {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6); }
+
+.logo {
+  margin: auto;
+  padding-top: 120px;
+  height: 333px;
+  width: 738px; }
+
+#mouse {
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-left: 12px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 2px solid #71a1e1; }
+
+#logoMenu {
+  margin-top: -2px;
+  margin-left: 5px;
+  width: 82px;
+  height: 38px; }
+
+.navbar {
+  z-index: 1000;
+  height: 70px; }
+
+.navbar-nav li a {
+  line-height: 35px; }
+
+li a {
+  font-size: 1.5em; }
+
+.separationmenu {
+  height: 60px;
+  margin-top: 5px;
+  border-width: 3px 3px 3px 0;
+  border-style: solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 0, 100% 0, from(#71a1e1), to(rgba(229, 0, 67, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #71a1e1, #e50043) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, #71a1e1, #e50043) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, #71a1e1, #e50043) 1 100%;
+  border-image: linear-gradient(to bottom, #71a1e1, #e50043) 1 100%; }
+
+.separationmenucontact {
+  margin-top: 7px; }
+
+.navbar-default .navbar-nav > li > a {
+  font-family: "Coolvetica";
+  color: black; }
+
+h1 {
+  margin: 0; }
+
+.affix + section {
+  padding-top: 70px; }
+
+/* Partie à récupérer pour la nav */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+​
+.affix + section {
+  position: relative;
+  top: 70px; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: red;
+  background-color: transparent; }
+
 #Presentation {
   font-family: "Coolvetica";
   background-color: #a3c6f5;
-  height: 630px; }
+  height: 630px;
+  padding-top: 60px; }
   #Presentation h1 {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-top: 5px; }
+    padding-top: 10px;
+    padding-bottom: 20px; }
   #Presentation div {
     display: flex;
     justify-content: space-around; }
@@ -42,7 +131,7 @@
         font-size: 15px; }
   #Presentation #footerPres {
     position: relative;
-    bottom: 349px;
+    bottom: 420px;
     text-align: center; }
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
@@ -87,8 +176,7 @@
 #couleur-langage {
   background-color: #e8edfa;
   padding-bottom: 45px;
-  margin-top: -20px;
-  margin-bottom: -20px; }
+  margin-top: -20px; }
   #couleur-langage header {
     border-bottom: 3px solid #71a1e1;
     margin-bottom: 25px;
@@ -143,20 +231,29 @@
   left: 25%; }
 
 #presse {
-  background-color: #71a1e1;
+  background-color: rgba(113, 161, 225, 0.5);
+  background-image: url(../img/presse.jpg);
+  background-size: cover;
   padding-bottom: 50px;
   color: white;
-  font-family: "GeosansLight"; }
-  #presse h2 {
+  font-family: "GeosansLight";
+  font-size: 15px; }
+  #presse h2.revue {
     text-align: center;
-    font-family: "Coolvetica"; }
-  #presse h3 {
-    text-align: center; }
+    font-family: "Coolvetica";
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 15px; }
+  #presse h3.texte-revue {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 15px; }
   #presse #imgPresse {
     display: flex;
     justify-content: space-around; }
     #presse #imgPresse div {
       width: 20%;
+      height: 30%;
       text-align: center;
       background-color: #95baee; }
       #presse #imgPresse div img {
@@ -164,17 +261,37 @@
         /* padding: 15%; */
         padding-left: 15%;
         padding-right: 15%;
-        margin-top: 30px; }
+        margin-top: 35px; }
       #presse #imgPresse div p {
-        margin-top: 35px;
+        margin-top: 50px;
         height: auto; }
       #presse #imgPresse div header {
         display: flex;
-        float: right; }
+        float: right;
+        margin-top: 8%; }
+      #presse #imgPresse div .midi-libre {
+        margin-top: 0%; }
+      #presse #imgPresse div .icone {
+        position: relative;
+        top: 0.6em; }
+  @media (max-width: 767px) {
+    #presse #imgPresse {
+      display: block; }
+      #presse #imgPresse div {
+        position: relative;
+        top: 20px;
+        left: 50px;
+        width: 75%;
+        height: 330px; }
+      #presse #imgPresse .tvsud {
+        margin-bottom: 20px; }
+      #presse #imgPresse .midilibre {
+        margin-bottom: 20px; } }
 
 #sectionPromotion {
   background-color: #e8edf3;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  padding-top: 60px; }
 
 .titrePromotion {
   background-color: white; }
@@ -302,13 +419,20 @@ a:hover {
   text-align: center;
   font-size: 40px; }
 
+.infos {
+  margin-top: 10px; }
+
 .contact {
+  padding: 80px 0px 0px 150px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  justify-content: space-around;
   width: 90%;
   margin: auto;
-  list-style: none;
-  padding-left: 0;
-  justify-content: space-around; }
+  list-style: none; }
 
 @media only screen and (max-device-width: 700px) {
   .contact {
@@ -321,7 +445,7 @@ a {
   text-decoration: none;
   color: black; }
 
-li {
+#sectionContact > li {
   text-align: center;
   width: 300px; }
 
