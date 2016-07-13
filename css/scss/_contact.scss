@@ -1,0 +1,41 @@
+#contact{
+  text-align: center;
+  font-size: 40px;
+  }
+
+  .infos{
+    margin-top: 10px;
+  }
+
+.contact {
+  padding: 80px 0px 0px 100px;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-device-width: 700px) {
+
+.contact {
+  padding: 80px 0px 0px 0px;
+  flex-direction: column;
+ }
+}
+
+.items {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+ }
+
+a{
+  text-decoration: none;
+  color: black;
+}

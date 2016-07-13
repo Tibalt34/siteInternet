@@ -1,0 +1,73 @@
+#presse{
+  background-color: rgba(113, 161, 225, 0.5);
+  background-image: url(../img/presse.jpg);
+  background-size: cover;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "GeosansLight";
+  font-size: $tailleArticle;
+
+  h2{
+    text-align: center;
+    font-family: "Coolvetica";
+    font-size: $tailleTitre;
+    margin-top: 0;
+    padding-top: 15px;
+  }
+  h3{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+  #imgPresse{
+    display: flex;//sur les 3 articles
+    justify-content: space-around;
+    div{
+      width: 20%;
+      height: 30%;
+      text-align: center;
+      background-color: #95baee;
+      img{
+        width: 75%;
+        /* padding: 15%; */
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 35px;
+      }
+      p{
+        margin-top: 50px;
+        height: auto;
+      }
+      header{
+        display: flex;
+        float: right;
+        margin-top: 8%;
+      }
+      .midi-libre{
+        margin-top: 0%;
+      }
+      .icone{
+        position: relative;
+        top: 0.6em;
+      }
+    }
+  }
+  @media (max-width: 767px){
+  #imgPresse{
+    display: block;//sur les 3 articles
+    div{
+      position: relative;
+      top: 20px;
+      left: 50px;
+      width: 75%;
+      height: 330px;
+    }
+    .tvsud{
+      margin-bottom: 20px;
+    }
+    .midilibre{
+      margin-bottom: 20px;
+    }
+  }
+}
+}
