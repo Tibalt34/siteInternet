@@ -14,8 +14,13 @@ $(window).load(function(){
 		//on fait une multiplication par 2 car il y a deux colones.
 		var index = idx+idxp*2;
 
+<<<<<<< HEAD
 		//on gere la position de l'element afficher en multipliant 'lindex de l'apprenant * la hauteur du viewport
 		$("#carouzel").css({top : -(index*500)+"px"});
+=======
+		//on gere la position de l'element afficher en multipliant 'lindex de l'apprenant * la largeur du viewport
+		$("#carouzel").css({left : -(index*400)+"px"});
+>>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
 		//on cache l'ancien profil qui etait affiché (cette ligne ne sera pas affecter au premier chargement de la page)
 		$(profilAfficher).hide();
 		//tu affectes à l'attribut name au resultat de la variable qui se trouve dans la div avec #profils

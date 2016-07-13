@@ -3,19 +3,29 @@
   font-size: 40px;
   }
 
+<<<<<<< HEAD
   .infos{
+=======
+
+.infos{
+>>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
     margin-top: 10px;
   }
 
 .contact {
+<<<<<<< HEAD
   padding: 80px 0px 0px 100px;
   list-style: none;
 
+=======
+  padding: 80px 0px 0px 150px;
+>>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+<<<<<<< HEAD
 
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
@@ -25,6 +35,16 @@
 
 .contact {
   padding: 80px 0px 0px 0px;
+=======
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  list-style: none;
+}
+
+@media only screen and (max-device-width: 700px) {
+    .contact {
+>>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
   flex-direction: column;
  }
 }
@@ -32,10 +52,21 @@
 .items {
   color: black;
   font-size: 15px;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
  }
 
 a{
   text-decoration: none;
   color: black;
 }
+<<<<<<< HEAD
+=======
+
+#sectionContact > li{
+  text-align: center;
+  width: 300px;
+}
+>>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
