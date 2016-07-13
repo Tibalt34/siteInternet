@@ -179,42 +179,105 @@
 .titrePromotion {
   background-color: white; }
 
-h4 {
-  /*padding-top: 30px;*/
-  padding-bottom: 30px;
-  text-align: center; }
+.titrePromotion > h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Coolvetica";
+  padding-bottom: 30px; }
 
 #containerPromotion {
   display: flex;
   width: 90%;
   height: auto;
-  margin: auto;
-  border: 1px solid black;
-  justify-content: space-around; }
+  margin-top: 5%;
+  margin-left: 2%;
+  justify-content: space-around;
+  font-family: "GeosansLight";
+  font-size: 1.4em; }
 
-table, td, th {
-  border: 1px solid black;
+.imglogo {
+  float: right; }
+
+#profils .descrilogo {
+  width: 55px;
+  padding-right: 15px;
+  margin-top: 65px; }
+
+#profils .lienpf {
+  padding-top: 55px; }
+
+#containerPromotion th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  background-color: #a3c6f5;
   text-align: center; }
+
+#containerPromotion img {
+  width: 30px; }
+
+#containerPromotion td {
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 7px;
+  background-color: #71a1e1; }
+
+#containerPromotion td a {
+  color: white; }
+
+#liste {
+  width: 430px; }
 
 #profils {
   overflow: hidden;
+  margin-top: 150px;
+  margin-right: -75px;
   width: 400px;
-  /*margin-left: 3%;*/
-  background-color: #a4c6f4;
-  border: 1px solid black; }
+  height: 350px;
+  background-color: #a3c6f5;
+  color: white;
+  box-shadow: -20px 15px 0px #71a1e1;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+ul.logopres {
+  position: absolute;
+  width: 240px;
+  right: 0;
+  bottom: 0; }
+
+.logopres li {
+  list-style-type: none;
+  display: inline; }
+
+#profils h2 {
+  text-align: center;
+  padding-bottom: 20px; }
+
+#profils a:hover {
+  color: white;
+  text-decoration: none; }
 
 #profils div {
   position: absolute;
-  display: none; }
+  display: none;
+  height: 350px;
+  width: 380px; }
 
 #profils div[name="fabrice"] {
   display: block; }
 
 #containerCarouzel {
   overflow: hidden;
+  margin-top: 50px;
   width: 400px;
-  height: 500px;
-  /*margin-left: 5%;*/ }
+  height: 500px; }
+
+.ligneB {
+  border-right: 1px solid white !important; }
 
 #carouzel {
   width: 7200px;
@@ -225,10 +288,12 @@ table, td, th {
 
 #carouzel div {
   display: inline-block;
-  font-size: 20px;
-  border: 1px solid black;
   width: 400px;
   height: 500px; }
+
+#carouzel div .tablet {
+  margin-left: 30px;
+  width: 340px; }
 
 a:hover {
   cursor: pointer; }
