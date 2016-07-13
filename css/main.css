@@ -388,6 +388,7 @@ ul.logopres {
   display: block; }
 
 #containerCarouzel {
+  position: relative;
   overflow: hidden;
   margin-top: 50px;
   width: 400px;
@@ -414,6 +415,18 @@ ul.logopres {
 
 a:hover {
   cursor: pointer; }
+
+.arrow {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 40%; }
+
+[name="gauche"] {
+  left: 0; }
+
+[name="droite"] {
+  right: 0; }
 
 #contact {
   text-align: center;
