@@ -1,123 +1,127 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <META NAME="Copyright" CONTENT="beweb">
+<head>
+  <meta charset="utf-8">
+  <META NAME="Copyright" CONTENT="beweb">
     <META NAME="Author" CONTENT="beweb">
-    <META NAME="Category" CONTENT="Webmastering, Gestion de sites">
-    <META NAME="Description" CONTENT="Rôle et description des balises Meta">
-    <META NAME="Keywords" CONTENT="Analyse d'audience, Référencement, PageRank, Webmaster">
-    <META NAME="Reply-to" CONTENT="webmaster@rankspirit.com">
+      <META NAME="Category" CONTENT="Webmastering, Gestion de sites">
+        <META NAME="Description" CONTENT="Rôle et description des balises Meta">
+          <META NAME="Keywords" CONTENT="Analyse d'audience, Référencement, PageRank, Webmaster">
+            <META NAME="Reply-to" CONTENT="webmaster@rankspirit.com">
 
-    <META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-      <!-- Import Bootstrap AVANT le fichier css (afin de pouvoir overight) => a tester -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-      <!-- Import de Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-      <!-- Import de Bootstrap.js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="./script/script.js"></script>
-    <title>Beweb</title>
-  </head>
-  <body>
-    <!-- section page accueil -->
-    <header id="entete">
+              <META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+                <!-- Import Bootstrap AVANT le fichier css (afin de pouvoir overight) => a tester -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <div class="opaque">
-    <div class="logo">
-      <img src="img/logoBeweb.png" class="img-responsive" alt="logoBeWeb"/>
-    <div id="mouse">
-      <a href="#Presentation"><img src="img/mouse.png"/></a>
-    </div>
-    </div>
-    </div>
+                <!-- Import de Jquery -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+                <!-- Import de Bootstrap.js -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                <script src="./script/script.js"></script>
+                <script src="./script/smoothscroll.js"></script>
+                <link rel="stylesheet" href="./css/main.css">
+                <title>Beweb</title>
+              </head>
+              <body data-spy="scroll" data-target=".navbar" data-offset="50">
+                <!-- section page accueil -->
+                <header id="entete">
 
-​   </header>
-    <!-- nav -->
+                <div class="opaque">
+                <div class="logo">
+                  <img src="./img/logoBeweb.png" class="img-responsive" alt="logoBeWeb"/>
+                <div id="mouse">
+                  <a href="#Presentation" class="js-scrollTo"><img src="./img/mouse.png"/></a>
+                </div>
+                </div>
+                </div>
 
-    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="700">
-      <div class="container-fluid">
-        <div class="navbar-header">
-        <!-- Petits logos qui serviront pour le menu responsive_____________________-->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#maBarreDeNav">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- C'est ici que l'on placera le logo BEWEB_________________________-->
-          <a class="navbar-brand" href="#"><img id="logoMenu" src="./img/logoBeweb.png" alt="logoBeWebmenu"/></a>
-        </div>
-        <div class="collapse navbar-collapse" id="maBarreDeNav">
-          <!-- Liens vers les sections ! _______________________________________-->
-          <ul class="nav navbar-nav navbar-right">
-            <li class="separationmenu"><a href="#">Home</a></li>
-            <li class="separationmenu"><a href="#Presentation">Ecole</a></li>
-            <li class="separationmenu"><a href="#sectionPromotion">Promotions</a></li>
-            <li class="separationmenucontact"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+            ​   </header>
+                  ​
+                  <!-- nav -->
+
+                  <nav class="navbar navbar-default" data-spy="affix" data-offset-top="700">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                      <!-- Petits logos qui serviront pour le menu responsive_____________________-->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#maBarreDeNav">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <!-- C'est ici que l'on placera le logo BEWEB_________________________-->
+                        <a class="navbar-brand" href="#"><img id="logoMenu" src="./img/logoBeweb.png" alt="logoBeWebmenu"/></a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="maBarreDeNav">
+                        <!-- Liens vers les sections ! _______________________________________-->
+                        <ul class="nav navbar-nav navbar-right">
+                          <li class="separationmenu"><a class="js-scrollTo" href="#">Home</a></li>
+                          <li class="separationmenu"><a class="js-scrollTo" href="#Presentation">Ecole</a></li>
+                          <li class="separationmenu"><a class="js-scrollTo" href="#sectionPromotion">Promotions</a></li>
+                          <li class="separationmenucontact"><a class="js-scrollTo"href="#contact">Contact</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+                  <!-- section ecole/formation -->
+
+                  <div id="Presentation">
+                    <h1>Présentation BeWeb</h1>
+                    <div><!--_____MODIFE!!!____-->
+                      <article>  <!--_____MODIFE!!!____-->
+                        <h3>
+                          BeWeb<br>labellisée Grande École<br> du Numérique <br>en partenariat avec : <!--_____MODIFE!!!____-->
+                        </h3>
+                        <img src="img/grande_ecole_numerique.png" alt="" />
+                        <img src="img/fondespierre.png" alt="" />
+                      </article>
+                      <article> <!--_____MODIFE!!!____-->
+                        <h3>Devenez Développeur Web</h3>
+                        <p>Enseignement Innovant<br>
+                          Formation Intensive<br>
+                          Ouverte à tous et gratuite<br>
+                          Sélection sur la motivation<br>
+                          MasterClass avec des professionnels<br>
+                          Learning by doing<br>
+                          Esprit d'équipe<br>
+                        </p>
+                      </article>
+                    </div>
+                    <footer id="footerPres" class="hidden-xs hidden-sm">
+                      <img id="imgPresentation" src="img/imgPresentation2.png" alt="" />
+                    </footer>
+                  </div>
+
+                  <div class="titreformation">
+                    <h2>Formation</h2>
+                  </div>
+                  <div class="containerFormaLang">
 
 
-    <!-- section ecole/formation -->
+                    <div class="texte">
+                      <p>
+                        <strong>6 mois de formation intensive</strong> au cours desquels nous allons apprendre à créer des sites Internet et des applications web, dans le but de devenir <strong>Développeur Web</strong>.
 
-      <div id="Presentation">
-      <h1>Présentation BeWeb</h1>
-        <div><!--_____MODIFE!!!____-->
-          <article>  <!--_____MODIFE!!!____-->
-            <h3>
-              BeWeb<br>labellisée Grande École<br> du Numérique <br>en partenariat avec : <!--_____MODIFE!!!____-->
-            </h3>
-            <img src="img/grande_ecole_numerique.png" alt="" />
-            <img src="img/fondespierre.png" alt="" />
-          </article>
-          <article> <!--_____MODIFE!!!____-->
-            <h3>Devenez Développeur Web</h3>
-            <p>Enseignement Innovant<br>
-              Formation Intensive<br>
-              Ouverte à tous et gratuite<br>
-              Sélection sur la motivation<br>
-              MasterClass avec des professionnels<br>
-              Learning by doing<br>
-              Esprit d'équipe<br>
-            </p>
-          </article>
-        </div>
-        <footer id="footerPres" class="hidden-xs hidden-sm">
-         <img id="imgPresentation" src="img/imgPresentation2.png" alt="" />
-       </footer>
-    </div>
+                        La formation est fondée à 80% sur le “Learning by Doing” (pratique/projets) et capitalise sur des leviers d’apprentissage horizontaux tels que le “peer-programming” (programmation par les pairs, en binôme) et le mode projet, la transmission / évaluation par les pairs et la réalisation pour accroître l’acquisition des compétences nécessaires au métier de Développeur.
 
-       <div class="titreformation">
-         <h2>Formation</h2>
-       </div>
-       <div class="containerFormaLang">
+                        Au-delà du “learning by doing” et du “peer-programming”, les apprenant(e-s) sont mis(e-s) en situation par le “learning by teaching”. Ils y sont confrontés quand ils travaillent en binôme, mais également à l’occasion d’ateliers (pour des partenaires, des enfants, des porteurs de projets, etc.). Ces événements de “reverse mentoring” sont d’excellents moyens de validation des acquis, de montée en compétence (pédagogie, patience, adaptabilité, etc.) mais aussi de gain de confiance.
 
+                        Une formation ouverte à tous. La sélection se fait sur la motivation et l’envie de travailler en équipe .
+                      </p>
+                    </div>
+                    <div class="separation"></div>
 
-        <div class="texte">
-            <p>
-            <strong>6 mois de formation intensive</strong> au cours desquels nous allons apprendre à créer des sites Internet et des applications web, dans le but de devenir <strong>Développeur Web</strong>.
+                  </div>
+                </div>
 
-            La formation est fondée à 80% sur le “Learning by Doing” (pratique/projets) et capitalise sur des leviers d’apprentissage horizontaux tels que le “peer-programming” (programmation par les pairs, en binôme) et le mode projet, la transmission / évaluation par les pairs et la réalisation pour accroître l’acquisition des compétences nécessaires au métier de Développeur.
-
-            Au-delà du “learning by doing” et du “peer-programming”, les apprenant(e-s) sont mis(e-s) en situation par le “learning by teaching”. Ils y sont confrontés quand ils travaillent en binôme, mais également à l’occasion d’ateliers (pour des partenaires, des enfants, des porteurs de projets, etc.). Ces événements de “reverse mentoring” sont d’excellents moyens de validation des acquis, de montée en compétence (pédagogie, patience, adaptabilité, etc.) mais aussi de gain de confiance.
-
-            Une formation ouverte à tous. La sélection se fait sur la motivation et l’envie de travailler en équipe .
-          </p>
-      </div>
-      <div class="separation"></div>
-
-       </div>
-   </div>
 
         <div id="couleur-langage">
           <header>
             <h2>Langages et Framework</h2>
           </header>
           <h2>Le développement « Front-End » (ce qu’on voit à l’écran, avec HTML, CSS et Javascript par exemple), le développement « Back-End » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</h3>
+
         <div>
         <article class="langages" id="espaceImg">
           <h3 class="titre-langages">Langages</h3>
@@ -382,46 +386,47 @@
 	</section>
       <!-- fin section promo  -->
 ​
-    <!-- section footer -->
-    <div>
-      <!-- section contact -->
-      <div>
-        <h2 id="contact">contact</h2>
 
-      <!-- formulaire -->
-      <ul class="contact">
-      <li class="items"><img src="img/tel.png"><br><div class="infos">04.10.20.30.40</div></li>
-      <li class="items"><img src="img/place.png"><br><div class="infos">33 rue Jean Jacques Rousseau, 34400 Lunel</div></li>
-      <li class="items"><img src="img/enveloppe.png"><br><div class="infos"><a href="mailto:beweblunel@gmail.com">beweblunel@gmail.com</div></li>
-    </ul>
-​
-    <!-- section partenaire -->
-    <div id="divpartenaire" class=partenaire>
-      <h2>Partenaires</h2>
-      <hr class="soulignement"> <!-- BARE DE SOULIGNEMENT -->
-      <h3>Ils nous accompagnent.</h3>
+          ​
+          <!-- section contact -->
+          <section id="sectionContact">
+            <h2 id="contact">Contact</h2>
+            <!-- formulaire -->
+            <ul class="contact">
+              <li class="items"><img src="img/tel.png"><br><div class="infos">04.10.20.30.40</div></li>
+              <li class="items"><img src="img/place.png"><br><div class="infos">33 rue Jean Jacques Rousseau, 34400 Lunel</div></li>
+              <li class="items"><img src="img/enveloppe.png"><br><div class="infos"><a href="mailto:beweblunel@gmail.com">beweblunel@gmail.com</a></div></li>
+            </ul>
+          </section>
 
-      <img src="img/grande_ecole_numerique.png" alt="" />
-      <img src="img/ministre_de_la_ville.png" alt="" />
-      <img src="img/republique_française.png" alt="" />
-      <img src="img/prefecture_herault.png" alt="" />
-      <img src="img/logo_dgcs.png" alt="" />
-      <img src="img/departement_herault.png" alt="" />
-      <img src="img/ville_lunel.png" alt="" />
-      <img src="img/pole_emploi.png" alt="" />
-      <img src="img/mli.jpg" alt="" />
-      <img src="img/via_innova.png" alt="" />
-      <img src="img/bge.png" alt="" />
+              <!-- section partenaire -->
+              <section>
+                <div id="divpartenaire" class=partenaire>
+                  <h2>Partenaires</h2>
+                  <hr class="soulignement"> <!-- BARE DE SOULIGNEMENT -->
+                  <h3>Ils nous accompagnent.</h3>
+
+                  <img src="img/grande_ecole_numerique.png" alt="Grande Ecole du numérique" />
+                  <img src="img/ministre_de_la_ville.png" alt="Ministre de la Ville" />
+                  <img src="img/republique_française.png" alt="République Française" />
+                  <img src="img/prefecture_herault.png" alt="Préfecture Herault" />
+                  <img src="img/logo_dgcs.png" alt="Logo DGCS" />
+                  <img src="img/departement_herault.png" alt="Departement Herault" />
+                  <img src="img/ville_lunel.png" alt="Ville Lunel" />
+                  <img src="img/pole_emploi.png" alt="Pole Emploi" />
+                  <img src="img/mli.jpg" alt="MLI" />
+                  <img src="img/via_innova.png" alt="Via Innova" />
+                  <img src="img/bge.png" alt="BGE" />
 
 
-    </div>
+                </div>
+              </section>
+                <footer id="footerParte">
+                  <p>
+                    BeWeb © Copyright 2016 Tous droits réservés
+                  </p>
+                </footer>
 
-    <div>
-    <!-- livres d'or -->
-    </div>
-
-    <footer id="footerParte"></footer>
-    </div>
-  </div>
-  </body>
-</html>
+              </body>
+              </html>
+>>>>>>> ed86a660f15432d0d3618a62b4498ad093c51dcd
