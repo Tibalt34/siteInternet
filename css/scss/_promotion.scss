@@ -1,10 +1,7 @@
 #sectionPromotion{
   background-color: #e8edf3;
   padding-bottom: 5%;
-<<<<<<< HEAD
-=======
   padding-top: 60px;
->>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
 }
 .titrePromotion{
   background-color: white;
@@ -52,14 +49,6 @@ table, td, th{
 }
 
 #carouzel{
-<<<<<<< HEAD
-	position: relative;
-	top:0;
-	transition:top 2s;
-}
-
-#carouzel div{
-=======
   width : 7200px; //(18 * 400px)
 	position: relative;
 	left:0;
@@ -70,7 +59,6 @@ table, td, th{
 #carouzel div{
   display: inline-block;
   font-size: 20px; //pour verifier le bon foctionnement a supprimer au deploiement
->>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
 	border: 1px solid black;
 	width: 400px;
 	height: 500px;

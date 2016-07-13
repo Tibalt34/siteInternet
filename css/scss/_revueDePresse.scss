@@ -1,5 +1,4 @@
 #presse{
-<<<<<<< HEAD
   background-color: rgba(113, 161, 225, 0.5);
   background-image: url(../img/presse.jpg);
   background-size: cover;
@@ -8,39 +7,24 @@
   font-family: "GeosansLight";
   font-size: $tailleArticle;
 
-  h2{
+  h2.revue{
     text-align: center;
     font-family: "Coolvetica";
     font-size: $tailleTitre;
     margin-top: 0;
     padding-top: 15px;
   }
-  h3{
+  h3.texte-revue{
     text-align: center;
     font-size: 22px;
     padding-bottom: 15px;
-=======
-  background-color: $couleurPrincipale;
-  padding-bottom: 50px;
-  color: white;
-  font-family: "GeosansLight";
-  h2{
-    text-align: center;
-    font-family: "Coolvetica";
-  }
-  h3{
-    text-align: center;
->>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
   }
   #imgPresse{
     display: flex;//sur les 3 articles
     justify-content: space-around;
     div{
       width: 20%;
-<<<<<<< HEAD
       height: 30%;
-=======
->>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
       text-align: center;
       background-color: #95baee;
       img{
@@ -48,23 +32,15 @@
         /* padding: 15%; */
         padding-left: 15%;
         padding-right: 15%;
-<<<<<<< HEAD
         margin-top: 35px;
       }
       p{
         margin-top: 50px;
-=======
-        margin-top: 30px;
-      }
-      p{
-        margin-top: 35px;
->>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
         height: auto;
       }
       header{
         display: flex;
         float: right;
-<<<<<<< HEAD
         margin-top: 8%;
       }
       .midi-libre{
@@ -94,10 +70,4 @@
     }
   }
 }
-=======
-      }
-    }
-  }
-
->>>>>>> abe9a8108e0344448b6c76d366f9abaed8c3d369
 }
