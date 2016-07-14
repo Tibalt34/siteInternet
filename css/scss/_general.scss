@@ -15,6 +15,9 @@ $couleurBackground : #e8edfa;
 $couleurTraitVertical : #e50043;
 $couleurTexte : #444444;
 $couleurRubrique : white;
+$largeurProfils : 400px;
+$hauteurProfils : 350px;
+
 
 /*-------fin-couleur-----------*/
 
@@ -30,6 +33,14 @@ $couleurRubrique : white;
 /*----------fin-font import----------------*/
 
 /*--------police-----------*/
-$fontTitle :  "Coolvetica";
+$fontTitle : "Coolvetica";
 $fontTexte : "GeosansLight";
+
+/*-----------taille police Titre--------------*/
+$tailleTitre : 40px;
+/*-----texte en majuscule------*/
+$maj : uppercase;
+
+/*----------taille police Article---------------*/
+$tailleArticle : 15px;
 /*-------fin police-----------*/

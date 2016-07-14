@@ -1,245 +1,545 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <META NAME="Copyright" CONTENT="beweb">
-    <META NAME="Author" CONTENT="beweb">
-    <META NAME="Category" CONTENT="Webmastering, Gestion de sites">
-    <META NAME="Description" CONTENT="Rôle et description des balises Meta">
-    <META NAME="Keywords" CONTENT="Analyse d'audience, Référencement, PageRank, Webmaster">
-    <META NAME="Reply-to" CONTENT="webmaster@rankspirit.com">
+	<head>
+		<meta charset="utf-8">
+		<META NAME="Copyright" CONTENT="beweb">
+    	<META NAME="Author" CONTENT="beweb">
+      	<META NAME="Category" CONTENT="Webmastering, Gestion de sites">
+        <META NAME="Description" CONTENT="Rôle et description des balises Meta">
+        <META NAME="Keywords" CONTENT="Analyse d'audience, Référencement, PageRank, Webmaster">
+        <META NAME="Reply-to" CONTENT="webmaster@rankspirit.com">
 
-    <META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-      <!-- Import Bootstrap AVANT le fichier css (afin de pouvoir overight) => a tester -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-      <!-- Import de Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-      <!-- Import de Bootstrap.js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<!-- Import Bootstrap AVANT le fichier css (afin de pouvoir overight) => a tester -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- Import de Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<!-- Import de Bootstrap.js -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="./script/script.js"></script>
+		<script src="./script/smoothscroll.js"></script>
+		<link rel="stylesheet" href="./css/main.css">
+		<title>Beweb</title>
+	</head>
+				
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<!-- section page accueil -->
+		<header id="entete">
+
+			<div class="opaque">
+				<div class="logo">
+                  <img src="./img/logoBeweb.png" class="img-responsive" alt="logoBeWeb"/>
+					<div id="mouse">
+                  		<a href="#Presentation" class="js-scrollTo"><img src="./img/mouse.png"/></a>
+                	</div>
+                </div>
+			</div>
+
+		</header>
+                  <!-- nav -->
+
+		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="700">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<!-- Petits logos qui serviront pour le menu responsive_____________________-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#maBarreDeNav">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- C'est ici que l'on placera le logo BEWEB_________________________-->
+					<a class="navbar-brand" href="#"><img id="logoMenu" src="./img/logoBeweb.png" alt="logoBeWebmenu"/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="maBarreDeNav">
+					<!-- Liens vers les sections ! _______________________________________-->
+					<ul class="nav navbar-nav navbar-right">
+						<li class="separationmenu"><a class="js-scrollTo" href="#">Home</a></li>
+						<li class="separationmenu"><a class="js-scrollTo" href="#Presentation">Ecole</a></li>
+						<li class="separationmenu"><a class="js-scrollTo" href="#sectionPromotion">Promotions</a></li>
+						<li class="separationmenucontact"><a class="js-scrollTo"href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- section ecole/formation -->
+		<div id="Presentation">
+			<h1>Présentation BeWeb</h1>
+			<div><!--_____MODIFE!!!____-->
+				<article>  <!--_____MODIFE!!!____-->
+					<h3>
+						BeWeb<br>labellisée Grande École<br> du Numérique <br>en partenariat avec : <!--_____MODIFE!!!____-->
+					</h3>
+					<img src="img/grande_ecole_numerique.png" alt="" />
+					<img src="img/fondespierre.png" alt="" />
+				</article>
+				<article> <!--_____MODIFE!!!____-->
+					<h3>Devenez Développeur Web</h3>
+					<p>Enseignement Innovant<br>
+						Formation Intensive<br>
+						Ouverte à tous et gratuite<br>
+						Sélection sur la motivation<br>
+						MasterClass avec des professionnels<br>
+						Learning by doing<br>
+						Esprit d'équipe<br>
+					</p>
+				</article>
+			</div>
+			<footer id="footerPres" class="hidden-xs hidden-sm">
+				<img id="imgPresentation" src="img/imgPresentation2.png" alt="" />
+			</footer>
+		</div>
+
+                  <div class="titreformation">
+                    <h2>Formation</h2>
+                  </div>
+                  <div class="containerFormaLang">
 
 
+                    <div class="texte">
+                      <p>
+                        <strong>6 mois de formation intensive</strong> au cours desquels nous allons apprendre à créer des sites Internet et des applications web, dans le but de devenir <strong>Développeur Web</strong>.
 
-    <title>Beweb</title>
-  </head>
-  <body>
-    <div>
-​
-    <!-- section page accueil -->
-    <div>
-        <!-- img/video -->
-    </div>
-​
-    <!-- nav -->
+                        La formation est fondée à 80% sur le “Learning by Doing” (pratique/projets) et capitalise sur des leviers d’apprentissage horizontaux tels que le “peer-programming” (programmation par les pairs, en binôme) et le mode projet, la transmission / évaluation par les pairs et la réalisation pour accroître l’acquisition des compétences nécessaires au métier de Développeur.
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-        <!-- Petits logos qui serviront pour le menu responsive_____________________-->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#maBarreDeNav">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- C'est ici que l'on placera le logo BEWEB_________________________-->
-          <a class="navbar-brand" href="#">LogoBeWeb</a>
+                        Au-delà du “learning by doing” et du “peer-programming”, les apprenant(e-s) sont mis(e-s) en situation par le “learning by teaching”. Ils y sont confrontés quand ils travaillent en binôme, mais également à l’occasion d’ateliers (pour des partenaires, des enfants, des porteurs de projets, etc.). Ces événements de “reverse mentoring” sont d’excellents moyens de validation des acquis, de montée en compétence (pédagogie, patience, adaptabilité, etc.) mais aussi de gain de confiance.
+
+                        Une formation ouverte à tous. La sélection se fait sur la motivation et l’envie de travailler en équipe .
+                      </p>
+                    </div>
+                    <div class="separation"></div>
+
+                  </div>
+                </div>
+
+
+        <div id="couleur-langage">
+          <header>
+            <h2>Langages et Framework</h2>
+          </header>
+          <h2>Le développement « Front-End » (ce qu’on voit à l’écran, avec HTML, CSS et Javascript par exemple), le développement « Back-End » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</h3>
+
+            <div>
+              <article class="langages" id="espaceImg">
+                <h3 class="titre-langages">Langages</h3>
+                <img src="img/html5.png" alt="html5">
+                <img src="img/css3.png" alt="css3">
+                <img src="img/js.png" alt="javascript"><br>
+                <img src="img/php.png" alt="php">
+                <img src="img/jquery.png" alt="jquery">
+                <img src="img/angularjs.svg" alt="angular js">
+              </article>
+              <article class="outils" id="espaceImg2">
+                <h3 class="titre-langages">Framework</h3>
+                <img src="img/symfony.png" alt="symfony">
+                <img src="img/boostrap.png" alt="bootstrap">
+                <img src="img/jquery.png" alt="jquery"><br>
+                <img src="img/sass.png" alt="sass">
+                <img src="img/github.png" alt="github">
+                <img src="img/trello.png" alt="trello">
+              </article>
+            </div>
+            <!-- logo des langages -->
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="maBarreDeNav">
-          <!-- Liens vers les sections ! _______________________________________-->
-          <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#ecole">Ecole</a></li>
-            <li><a href="#promotions">Promotions</a></li>
-            <li><a href="#contact">Contacts</a></li>
-          </ul>
+        <div id="presse">
+          <h2 class="revue">REVUE DE PRESSE</h2>
+
+          <h3 class="texte-revue">On parle de nous</h3>
+          <div id="imgPresse">
+
+          <div class="tvsud">
+          <img src="./img/tv_sud2.png" alt="" />
+          <p><b>"</b> Quelque soit leur parcours,<br> 18 jeunes apprennent les joies du développement web à BeWeb. <b>"</b></p>
+          <header>
+            <p>Voir l'article</p>
+            <a href="http://www.tvsud.fr/?keys=beweb" target="new"><img src="./img/icon_press.png" class="icone" alt="" /></a>
+         </header>
+          </div>
+
+          <div class="midilibre">
+          <img src="./img/midi_libre.png" alt="" />
+          <p><b>"</b> Le numérique c'est l'avenir,<br> les apprenants de BeWeb l'ont compris et <br>se forment avec l'aide de Loïc Derrieux,<br> leur formateur. <b>"</b></p>
+          <header class="midi-libre">
+            <p>Voir l'article</p>
+            <a href="http://www.midilibre.fr/2016/04/19/grande-ecole-du-numerique-c-est-parti-pour-l-an-1-pour-le-financement-les-regards-sont-tournes-vers-la-region,1319497.php" target="new"><img src="./img/icon_press.png" class="icone" alt="" /></a>
+         </header>
+        </div>
+
+        <div class="gazette">
+          <img src="./img/gazette2.png" alt="" />
+          <p><b>"</b> Motivation, passion et dynamisme,<br> voilà quelques mots pour décrire les apprenants ayant intégrés BeWeb. <b>"</b></p>
+          <header>
+            <p>Voir l'article</p>
+            <a href="" target="new"><img src="./img/icon_press.png" class="icone" alt="" /></a>
+         </header>
+        </div>
         </div>
       </div>
-    </nav>
+          ​
+          <!-- section Promo -->
+          <section id="sectionPromotion">
 
+            <div class="titrePromotion">
+              <h2>PROMOTION 2016</h2>
+            </div>
 
+            <div id="containerPromotion">
 
+              <table id="liste">
+                <tr>
+                  <th colspan="2"> Apprenants </th>
+                </tr>
+                <tr>
+                  <td name="fabrice" class="ligneB"><a>Ake Fabrice </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="hicham"><a>El Yaagoubi Hicham </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="perle" class="ligneB"><a>Estru Perle </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="vincent"><a>Feger Vincent </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="thibaut" class="ligneB"><a>Figueres Thibaut </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="jof"><a>Fournival Jonathan </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="jimmy" class="ligneB"><a>Friedblatt Jimmy </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="elodie"><a>Gil Elodie </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="jog" class="ligneB"><a>Gomez Jonathan </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="sebastien"><a>Javary Sebastien </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="vivien" class="ligneB"><a>Kimbidima Vivien </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="alexandre"><a>Le Forestier Alexandre </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="hugues" class="ligneB"><a>Leger Hugues </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="ca"><a>Palade Charles-Andre </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="jc" class="ligneB"><a>Petetin Jean-Christian </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="gaston"><a>Saboy Gaston </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+                <tr>
+                  <td name="matthieu" class="ligneB"><a>Verquera Matthieu </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                  <td name="maddyson"><a>Weppe Maddyson </a><img class="imglogo" src="./img/iconecar.png" alt="iconepics"/></td>
+                </tr>
+              </table>
 
+				<!-- tablette carousel -->
+              <div id="containerCarouzel">
+				  <div id="tablette">
+                <div id="carouzel">
+                  <div name="fabrice">
+                    <img src="" alt="Ake Fabrice">
+                  </div>
+                  <div name="hicham">
+                    <img src="" alt="El Yaagoubi Hicham">
+                  </div>
+                  <div name="perle">
+                    <img src="" alt="Estru Perle">
+                  </div>
+                  <div name="vincent">
+                    <img src="" alt="Feger Vincent">
+                  </div>
+                  <div name="thibaut">
+                    <img src="" alt="Figueres Thibaut">
+                  </div>
+                  <div name="jof">
+                    <img src="" alt="Fournival Jonathan">
+                  </div>
+                  <div name="jimmy">
+                    <img src="" alt="Friedblatt Jimmy">
+                  </div>
+                  <div name="elodie">
+                    <img src="" alt="Gil Elodie">
+                  </div>
+                  <div name="jog">
+                    <img src="" alt="Gomez Jonathan">
+                  </div>
+                  <div name="sebastien">
+                    <img src="" alt="Javary Sébastien">
+                  </div>
+                  <div name="vivien">
+                    <img src="" alt="Kimbidima Vivien">
+                  </div>
+                  <div name="alexandre">
+                    <img src="" alt="Le Forestier Alexandre">
+                  </div>
+                  <div name="hugues">
+                    <img src="" alt="Leger Hugues">
+                  </div>
+                  <div name="ca">
+                    <img src="" alt="Palade Charles-André">
+                  </div>
+                  <div name="jc">
+                    <img src="" alt="Petetin Jean-Christian">
+                  </div>
+                  <div name="gaston">
+                    <img src="" alt="Saboy Gaston">
+                  </div>
+                  <div name="matthieu">
+                    <img src="" alt="Verquera Matthieu">
+                  </div>
+                  <div name="maddyson">
+                    <img src="" alt="Weppe Maddyson">
+                  </div>
+                </div>
+                <a><img name="gauche" class="arrow" src="./img/logoDroite.png" alt="" /></a>
+                <a><img name="droite" class="arrow" src="./img/logoGauche.png" alt="" /></a>
+				  </div>
+				</div>
 
-​    <div>
-    <!-- livres d'or -->
-    </div>
+              <div id="profils">
+                <div name="fabrice">
+                  <h2>Ake Fabrice</h2>
+                  <p>Un probléme est un obstacle qui nous empêche d'accomplir ce que l'on souhaite. Mais c'est aussi la plus grande des opportunitées</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-    <!-- section ecole/formation -->
+                <div name="hicham">
+                  <h2>El Yaagoubi Hicham</h2>
+                  <p>On t'attends mouahahahahahahahahahaha</p>
+                  <p><a href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-    <div>
-      <div>
-      <h1>Présentation BeWeb</h1>
+                <div name="perle">
+                  <h2>Estru Perle</h2>
+                  <p>blalba</p>
+                  <p><a href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-      <h3>
-        BeWeb labellisée Grande École du Numérique
-      </h3>
+                <div name="vincent">
+                  <h2>Feger Vincent</h2>
+                  <p>J'ai vraiment beaucoup d'objectifs ! le principal étant de pouvoir exprimer ma créativité à travers mon travail, mais également apprendre constamment et transmettre ce que j'apprend !</p>
+                  <p><a href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
+                <div name="thibaut">
+                  <h2>Figueres Thibaut</h2>
+                  <p>c’est en forgeant qu’on devient forgeron... Etrangement, cette phrase s'applique idéalement au métier de développeur web!</p>
+                  <p><a href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
+                <div name="jof">
+                  <h2>Fournival Jonathan</h2>
+                  <p>L'envie de toujours me depasser, la rigeur et ma curiosité pour les nouvelles technologies me permettrons d'atteindre les objectifs qui seront fixés</p>
+                  <p><a href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-      <img src="img/grande_ecole_numerique.png" alt="" />
-      <img src="img/fondespierre.png" alt="" />
-      <img src="img/simplon.png" alt="" />
+                <div name="jimmy">
+                  <h2>Friedblatt Jimmy</h2>
+                  <p>Mon objectif dans le Dev Web ? Me perfectionner en permanence afin de satisfaire votre demande.</p>
+                  <p><a href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-      <h3>Devenez Développeur Web</h3>
-      <p>Enseignement Innovant<br>
-        Formation Intensive<br>
-        Ouverte à tous et gratuite<br>
-        Sélection sur la motivation<br>
-        MasterClass avec des professionnels<br>
-        Learning by doing<br>
-        Esprit d'équipe<br>
+                <div name="elodie">
+                  <h2>Gil Elodie</h2>
+                  <p>Toujours à l'écoute de vos besoin, construisons ensemble votre site pour demain</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-      </p>
+                <div name="jog">
+                  <h2>Gomez Jonathan</h2>
+                  <p>La seule façon de faire du bon travail est d’aimer ce que l'on fait. Je suis fier de tous mes projets car ils m'ont tous permis d'apprendre et de pousser mes limites. Je suis constamment à la recherche de nouveaux défis et possibilités d'amélioration. Déterminé à travailler plus dur et plus fort vers la perfection.</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-    </div>
+                <div name="sebastien">
+                  <h2>Javary Sébastien</h2>
+                  <p>bleble</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-      <h2>Formation</h2>
-      <div>
-        <p>
-        <strong>6 mois de formation intensive</strong> au cours desquels nous allons apprendre à créer des sites Internet et des applications web, dans le but de devenir <trong>Développeur Web</strong>.
+                <div name="vivien">
+                  <h2>Kimbidima Vivien</h2>
+                  <p>bloblo</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-        La formation est fondée à 80% sur le “Learning by Doing” (pratique/projets) et capitalise sur des leviers d’apprentissage horizontaux tels que le “peer-programming” (programmation par les pairs, en binôme) et le mode projet, la transmission / évaluation par les pairs et la réalisation pour accroître l’acquisition des compétences nécessaires au métier de Développeur.
+                <div name="alexandre">
+                  <h2>Le Forestier Alexandre</h2>
+                  <p>blalba</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-        Au-delà du “learning by doing” et du “peer-programming”, les apprenant(e-s) sont mis(e-s) en situation par le “learning by teaching”. Ils y sont confrontés quand ils travaillent en binôme, mais également à l’occasion d’ateliers (pour des partenaires, des enfants, des porteurs de projets, etc.). Ces événements de “reverse mentoring” sont d’excellents moyens de validation des acquis, de montée en compétence (pédagogie, patience, adaptabilité, etc.) mais aussi de gain de confiance.
+                <div name="hugues">
+                  <h2>Leger Hugues</h2>
+                  <p>le développement web c'est comme une toile blanche. Mes seuls limites sont ma créativitée, pour le reste y'a google !</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-        Une formation ouverte à tous. La sélection se fait sur la motivation et l’envie de travailler en équipe .
-      </p>
-    </div>
-    </div>
+                <div name="ca">
+                  <h2>Palade Charles-Andre</h2>
+                  <p>Avec ma forte motivation et mes capacités en developpement web seront bénéfiques à la croissance, à la visibilité et a la fructufication de vos entreprise.</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
+                <div name="jc">
+                  <h2>Petetin Jean-Christian</h2>
+                  <p>In Code we trust.</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
+                <div name="gaston">
+                  <h2>Saboy Gaston</h2>
+                  <p>bloblo</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-        <h2>Langages et Framework</h2>
-        <div>
-        <p>Le développement « Front-End » (ce qu’on voit à l’écran, avec HTML, CSS et Javascript par exemple), le développement « Back-End » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</p>
+                <div name="matthieu">
+                  <h2>Verquera Matthieu</h2>
+                  <p>Mon dynamisme, mon enthousiasme et ma perpétuelle recherche de compétences ainsi que de nouvelles technologies sont les clés pour répondre à vos besoins.</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
 
-        <h3>Langages</h3>
-        <img src="img/html5.png" alt="">
-        <img src="img/css3.png" alt="">
-        <img src="img/js.png" alt="">
-        <img src="img/php.png" alt="">
-        <img src="img/jquery.png" alt="">
-        <img src="img/angularjs.png" alt="">
+                <div name="maddyson">
+                  <h2>Weppe Maddyson</h2>
+                  <p>Mon objectif ? Aider à améliorer votre efficience et visibilité afin de faire perdurer votre activité.</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
+                  <ul class="logopres">
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                  </ul>
+                </div>
+              </div>
 
-        <h3>Les outils utilisés sont:</h3>
-
-        <img src="img/symfony.png" alt="">
-        <img src="img/boostrap.png" alt="">
-        <img src="img/jquery.png" alt="">
-        <img src="img/sass.png" alt="">
-        <img src="img/github.png" alt="">
-        <img src="img/trello.png" alt="">
         <!-- logo des langages -->
       </div>
-
-      <div>
-        <h2>Revue de presse</h2>
-
-        <h3>On parle de nous</h3>
-
-        <div>
-        <img src="img_format_web/tv_sud.png" alt="" />
-        <p>TV sud est venu c'est la classe on est tous des BG</p>
       </div>
 
-        <div>
-        <img src="img_format_web/midi_libre.png" alt="" />
-        <p>Petit mot expliquant que midi libre a fait un article et avec le lien
-        </p>
-      </div>
-
-      <div>
-        <img src="img_format_web/gazette.png" alt="" />
-        <p>La Gazette a également fait un article sur nous blablalblalalaallal</p>
-      </div>
-        <!-- revue press -->
-      </div>
-    </div>
 ​
-    <!-- section Promo -->
-    <div>
-      <h2 id="promotions">Promotion 2016</h2>
-      <div>
-        <!-- liste des personnes position gauche -->
-        <div>
-          <h2></h2>
-          <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-          </ul>
-​       </div>
 ​
-        <div>
-          <!-- partie photo/carousel-->
-        </div>
-​
-        <!-- article promo personnel -->
-        <div>
-        <!--  description personnelle position "droite"  -->
-          <h2>Profil</h2>
-​
-          <p>
-            <!-- commentaire...... -->
-          </p>
-          <!--  liens vers nos facebook, gmail.. -->
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-        </div>
-      <!-- fin section promo  -->
-      </div>
-    </div>
-​
-    <!-- section footer -->
-    <div>
-      <!-- section contact -->
-      <div>
-        <h2 id="contact">contact</h2>
 
-      <!-- formulaire -->
+          ​
+          <!-- section contact -->
+          <section id="sectionContact">
+            <h2 id="contact">Contact</h2>
+            <!-- formulaire -->
+            <ul class="contact">
+              <li class="items"><img src="img/tel.png"><br><div class="infos">04.10.20.30.40</div></li>
+              <li class="items"><img src="img/place.png"><br><div class="infos">33 rue Jean Jacques Rousseau, 34400 Lunel</div></li>
+              <li class="items"><img src="img/enveloppe.png"><br><div class="infos"><a href="mailto:beweblunel@gmail.com">beweblunel@gmail.com</a></div></li>
+            </ul>
+          </section>
 
-      <p>33 rue Jean Jacques Rousseau 34400 Lunel</p>
-      <p>0410203040</p>
-      <p>beweblunel@gmail.com</p>
-      </div>
-​
-    <!-- section partenaire -->
-      <div>
-        <h2>Partenaires</h2>
-        <h3>Ils nous accompagnent.</h3>
+              <!-- section partenaire -->
+              <section>
+                <div id="divpartenaire" class=partenaire>
+                  <h2>Partenaires</h2>
+                  <hr class="soulignement"> <!-- BARE DE SOULIGNEMENT -->
+                  <h3>Ils nous accompagnent.</h3>
 
-        <img src="img/grande_ecole_numerique.png" alt="" />
-        <img src="img/ministre_de_la_ville.png" alt="" />
-        <img src="img/republique_française.png" alt="" />
-        <img src="img/prefecture_herault.png" alt="" />
-        <img src="img/logo_dgcs.png" alt="" />
-        <img src="img/departement_herault.png" alt="" />
-        <img src="img/ville_lunel.png" alt="" />
-        <img src="img/pole_emploi.png" alt="" />
-        <img src="img/mli.jpg" alt="" />
-        <img src="img/via_innova.png" alt="" />
-        <img src="img/bge.png" alt="" />
+                  <img src="img/grande_ecole_numerique.png" alt="Grande Ecole du numérique" />
+                  <img src="img/ministre_de_la_ville.png" alt="Ministre de la Ville" />
+                  <img src="img/republique_française.png" alt="République Française" />
+                  <img src="img/prefecture_herault.png" alt="Préfecture Herault" />
+                  <img src="img/logo_dgcs.png" alt="Logo DGCS" />
+                  <img src="img/departement_herault.png" alt="Departement Herault" />
+                  <img src="img/ville_lunel.png" alt="Ville Lunel" />
+                  <img src="img/pole_emploi.png" alt="Pole Emploi" />
+                  <img src="img/mli.jpg" alt="MLI" />
+                  <img src="img/via_innova.png" alt="Via Innova" />
+                  <img src="img/bge.png" alt="BGE" />
 
-      </div>
-    </div>
-  </div>
-  </body>
-</html>
+
+                </div>
+              </section>
+                <footer id="footerParte">
+                  <p>
+                    BeWeb © Copyright 2016 Tous droits réservés
+                  </p>
+                </footer>
+
+              </body>
+              </html>
