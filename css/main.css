@@ -23,6 +23,10 @@
 /*-----texte en majuscule------*/
 /*----------taille police Article---------------*/
 /*-------fin police-----------*/
+/*-----CouleurBody-------*/
+body {
+  background-color: #e8edfa; }
+
 #entete {
   background-image: url("../img/photoclasse.jpg");
   background-size: cover;
@@ -301,7 +305,8 @@ h1 {
   font-size: 40px;
   text-transform: uppercase;
   font-family: "Coolvetica";
-  padding-bottom: 30px; }
+  padding-bottom: 15px;
+  padding-top: 15px; }
 
 #containerPromotion {
   display: flex;
@@ -388,7 +393,6 @@ ul.logopres {
   display: block; }
 
 #containerCarouzel {
-  position: relative;
   overflow: hidden;
   margin-top: 50px;
   width: 400px;
@@ -416,18 +420,6 @@ ul.logopres {
 a:hover {
   cursor: pointer; }
 
-.arrow {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  top: 40%; }
-
-[name="gauche"] {
-  left: 0; }
-
-[name="droite"] {
-  right: 0; }
-
 #contact {
   text-align: center;
   font-size: 40px; }
@@ -436,7 +428,7 @@ a:hover {
   margin-top: 10px; }
 
 .contact {
-  padding: 80px 0px 0px 150px;
+  padding-top: 20px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -458,12 +450,13 @@ a {
   text-decoration: none;
   color: black; }
 
-#sectionContact > li {
-  text-align: center;
-  width: 300px; }
+#sectionContact {
+  padding-top: 60px; }
+  #sectionContact li {
+    text-align: center;
+    width: 300px; }
 
 .partenaire {
-  border: 1px #fff solid;
   text-align: center; }
 
 .soulignement {
