@@ -1,12 +1,14 @@
 #contact{
   text-align: center;
-  font-size: 40px;
+  font-size:$tailleTitre ;
   }
 
 .infos{
     margin-top: 10px;
   }
-
+.infos a{
+  font-size: 1em;
+}
 .contact {
   padding-top:20px;
   display: -webkit-box;
@@ -41,5 +43,6 @@ a{
   li{
   text-align: center;
   width: 300px;
+  font-size:$tailleArticle;
  }
 }
