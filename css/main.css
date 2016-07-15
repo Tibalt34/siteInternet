@@ -423,6 +423,10 @@ ul.logopres {
   height: 356px;
   border: 1px solid black; }
 
+#carouzel img {
+  width: 277px;
+  height: 356px; }
+
 /*#carouzel div .tablet{
   margin-left: 30px;
   width: 340px;
