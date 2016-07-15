@@ -23,14 +23,14 @@
 		<link rel="stylesheet" href="./css/main.css">
 		<title>Beweb</title>
 	</head>
-
+				
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<!-- section page accueil -->
 		<header id="entete">
 
 			<div class="opaque">
 				<div class="logo">
-                  <img src="./img/logo_header.png" class="img-responsive" alt="logoBeWeb"/>
+                  <img src="./img/logoBeweb.png" class="img-responsive" alt="logoBeWeb"/>
 					<div id="mouse">
                   		<a href="#Presentation" class="js-scrollTo"><img src="./img/mouse.png"/></a>
                 	</div>
@@ -239,7 +239,7 @@
 
 				<!-- tablette carousel -->
               <div id="containerCarouzel">
-				  <div id="tablette"><img src="./img/tablette.png"/></div>
+				  <div id="tablette">
                 <div id="carouzel">
                   <div name="fabrice">
                     <img src="./imgApprenants/lionel.png" alt="Ake Fabrice">
@@ -298,14 +298,14 @@
                 </div>
                 <a><img name="gauche" class="arrow" src="./img/logoDroite.png" alt="" /></a>
                 <a><img name="droite" class="arrow" src="./img/logoGauche.png" alt="" /></a>
-				  
+				  </div>
 				</div>
 
 
               <div id="profils">
                 <div name="fabrice">
                   <h2>Ake Fabrice</h2>
-                  <p>Un problème est un obstacle qui nous empêche d'accomplir ce que l'on souhaite. Mais c'est aussi la plus grande des opportunités.</p>
+                  <p>Un problème est un obstacle qui nous empêche d'accomplir ce que l'on souhaite. Mais c'est aussi la plus grande des opportunités</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
                     <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
@@ -319,9 +319,9 @@
                   <p>On t'attends mouahahahahahahahahahaha</p>
                   <p><a href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://fr-fr.facebook.com/people/Hicham-El-Yaagoubi-DevWeb/100012291970981" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/hichamdev34" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:hichamelyaagoubi34@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
@@ -352,8 +352,9 @@
                   <p>C’est en forgeant qu’on devient forgeron... Etrangement, cette phrase s'applique idéalement au métier de développeur web!</p>
                   <p><a href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/thibaut.figueres.1" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="thibaut.figueres@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
@@ -373,42 +374,42 @@
                   <p>Mon objectif dans le Dev Web ? Me perfectionner en permanence afin de satisfaire votre demande.</p>
                   <p><a href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/jimmyfriedblatt.dev.web" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/Jimmy_Dev_Web" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:friedblattjimmybeweb@outlook.fr" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
                 <div name="elodie">
                   <h2>Gil Elodie</h2>
-                  <p>Toujours à l'écoute de vos besoins, construisons ensemble votre site pour demain.</p>
+                  <p>Toujours à l'écoute de vos besoins, construisons ensemble votre site pour demain</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/elodie.gdevweb" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/elodiegweb?lang=fr" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:elodiegweb@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
                 <div name="jog">
                   <h2>Gomez Jonathan</h2>
-                  <p>La meilleure façon de faire du bon travail est d’aimer ce que l'on fait. Je suis constamment à la recherche de nouveaux défis et possibilités d'amélioration. Déterminé à travailler plus dur et plus fort vers la perfection.</p>
-                  <p><a class="lienpf" href="http://jonathan-gomez.fr/" target="new">Voir mon portfolio</a></p>
+                  <p>La meilleure façon de faire du bon travail est d’aimer ce que l'on fait. Je suis fier de tous mes projets car ils m'ont tous permis d'apprendre et de pousser mes limites. Je suis constamment à la recherche de nouveaux défis et possibilités d'amélioration. Déterminé à travailler plus dur et plus fort vers la perfection.</p>
+                  <p><a class="lienpf" href="http://jonathan-gomez.fr/">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/profile.php?id=100012290583102" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/Jogomezzzz" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:jonathan.gomez@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100012290583102"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="https://twitter.com/Jogomezzzz"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="mailto:jonathan.gomez@gmail.com"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
                 <div name="sebastien">
                   <h2>Javary Sébastien</h2>
-                  <p>"Soyez le changement que vous voulez voir dans le monde." Gandhi</p>
+                  <p>bleble</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
                     <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
                     <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:j.sebastien34@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
@@ -417,9 +418,9 @@
                   <p>bloblo</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/vivien.kimbidima.98" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/KimbidimaVivien" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:vivien34400@laposte.net" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
@@ -428,9 +429,9 @@
                   <p>blalba</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/alexandre.leforestier.14" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
                     <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:alexandreleforestierpro@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
@@ -439,20 +440,20 @@
                   <p>Le développement web c'est comme une toile blanche. Mes seules limites sont ma créativité, pour le reste y a Google !</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/profile.php?id=100012393211839" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/hugueslegerweb" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:hugueslegerdevweb@gmail.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
                 <div name="ca">
                   <h2>Palade Charles-Andre</h2>
-                  <p>Ma forte motivation et mes capacités en développement web seront bénéfiques à la croissance, à la visibilité et a la fructification de votre entreprise.</p>
-                  <p><a class="lienpf" href="http://www.driad.fr/" target="new">Voir mon portfolio</a></p>
+                  <p>Avec ma forte motivation et mes capacités en developpement web seront bénéfiques à la croissance, à la visibilité et a la fructufication de vos entreprise.</p>
+                  <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/charles0andre" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
                     <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="charles_andre.p@icloud.com" target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
@@ -483,9 +484,9 @@
                   <p>Mon dynamisme, mon enthousiasme et ma perpétuelle recherche de compétences ainsi que de nouvelles technologies sont les clés pour répondre à vos besoins.</p>
                   <p><a class="lienpf" href="">Voir mon portfolio</a></p>
                   <ul class="logopres">
-                    <li><a href="https://www.facebook.com/matthieu.verquera" target="new"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
-                    <li><a href="https://twitter.com/Matthieu_DevWeb" target="new"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
-                    <li><a href="mailto:matthieu.verquera@gmail.com"target="new"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/fb-logo.png" alt="facebook"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/tt-logo.png" alt="twitter"/></a></li>
+                    <li><a href="#"><img class="descrilogo" src="./img/mail-logo.png" alt="Mail"/></a></li>
                   </ul>
                 </div>
 
