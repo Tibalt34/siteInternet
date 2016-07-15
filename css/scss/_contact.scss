@@ -7,7 +7,7 @@
     margin-top: 10px;
   }
 
-.contact {
+.contact{
   padding-top:20px;
   display: -webkit-box;
   display: -moz-box;
@@ -18,7 +18,8 @@
   width: 90%;
   margin: auto;
   list-style: none;
-}
+  padding-left: 0;
+  }
 
 @media only screen and (max-device-width: 700px) {
     .contact {
@@ -30,6 +31,7 @@
   color: black;
   font-size: 15px;
  }
+
 
 a{
   text-decoration: none;

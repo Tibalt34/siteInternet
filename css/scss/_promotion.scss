@@ -50,7 +50,7 @@ padding-top: 15px;
   text-align: center;
 }
 
-#containerPromotion img{
+table img{
   width: 30px;
 }
 
@@ -129,11 +129,8 @@ display: inline;
 }
 
 #tablette{
-	position: relative;
-	z-index: 8000;
-	background-image: url(../img/tablette.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	position: absolute;
+	z-index: 13;
 	width: 316px;
 	height: 463px;
 }
@@ -146,6 +143,7 @@ display: inline;
   width : 4986px; //(18 * 277) /*7200px; //(18 * 400px)*/
 	position: relative;
 	left:0;
+	z-index:12;
 	transition:left 2s;
   font-size: 0; // pour virer l'espace entre les deux div
 }
@@ -177,10 +175,11 @@ a:hover{
 }
 
 .arrow{
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: absolute;
-  top: 45%;
+	z-index:15;
+  top: 47%;
 }
 [name="gauche"]{
   left: 22px;
