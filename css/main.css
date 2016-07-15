@@ -23,6 +23,10 @@
 /*-----texte en majuscule------*/
 /*----------taille police Article---------------*/
 /*-------fin police-----------*/
+/*-----CouleurBody-------*/
+body {
+  background-color: #e8edfa; }
+
 #entete {
   background-image: url("../img/photoclasse.jpg");
   background-size: cover;
@@ -304,7 +308,8 @@ h1 {
   font-size: 40px;
   text-transform: uppercase;
   font-family: "Coolvetica";
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-top: 15px; }
 
 #containerPromotion {
   display: flex;
@@ -394,14 +399,23 @@ ul.logopres {
   position: relative;
   overflow: hidden;
   margin-top: 50px;
-  width: 400px;
-  height: 500px; }
+  width: 310px;
+  height: 463px; }
+
+#tablette {
+  position: relative;
+  z-index: 8000;
+  background-image: url(../img/tablette.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 316px;
+  height: 463px; }
 
 .ligneB {
   border-right: 1px solid white !important; }
 
 #carouzel {
-  width: 7200px;
+  width: 4986px;
   position: relative;
   left: 0;
   transition: left 2s;
@@ -409,27 +423,36 @@ ul.logopres {
 
 #carouzel div {
   display: inline-block;
-  width: 400px;
-  height: 500px; }
+  position: relative;
+  z-index: -100;
+  top: 59px;
+  left: 18px;
+  width: 277px;
+  height: 356px;
+  border: 1px solid black; }
 
-#carouzel div .tablet {
+#carouzel img {
+  width: 277px;
+  height: 356px; }
+
+/*#carouzel div .tablet{
   margin-left: 30px;
-  width: 340px; }
-
+  width: 340px;
+}*/
 a:hover {
   cursor: pointer; }
 
 .arrow {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  top: 40%; }
+  top: 45%; }
 
 [name="gauche"] {
-  left: 0; }
+  left: 22px; }
 
 [name="droite"] {
-  right: 0; }
+  right: 25px; }
 
 #contact {
   text-align: center;
@@ -439,7 +462,7 @@ a:hover {
   margin-top: 10px; }
 
 .contact {
-  padding: 80px 0px 0px 150px;
+  padding-top: 20px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -461,12 +484,13 @@ a {
   text-decoration: none;
   color: black; }
 
-#sectionContact > li {
-  text-align: center;
-  width: 300px; }
+#sectionContact {
+  padding-top: 60px; }
+  #sectionContact li {
+    text-align: center;
+    width: 300px; }
 
 .partenaire {
-  border: 1px #fff solid;
   text-align: center; }
 
 .soulignement {

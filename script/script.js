@@ -20,7 +20,7 @@ $(window).load(function(){
 
 
 		//on gere la position de l'element afficher en multipliant 'lindex de l'apprenant * la largeur du viewport
-		$("#carouzel").css({left : -(index*400)+"px"});
+		$("#carouzel").css({left : -(index*277)+"px"});
 		//on cache l'ancien profil qui etait affiché (cette ligne ne sera pas affecter au premier chargement de la page)
 		$(profilAfficher).hide();
 		//tu affectes à l'attribut name au resultat de la variable qui se trouve dans la div avec #profils
@@ -46,7 +46,8 @@ arrow();
 
 	var nom = $((profilsDiv)[index]).attr("name");
 
-	$("#carouzel").css({left : -(index*400)+"px"});
+
+	$("#carouzel").css({left : -(index*277)+"px"});
 	$(profilAfficher).hide();
 	$("#profils div[name="+nom+"]").show();
 	profilAfficher = $("#profils div[name="+nom+"]");
