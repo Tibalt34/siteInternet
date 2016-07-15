@@ -3,6 +3,7 @@
   padding-bottom: 45px;
   margin-top: -20px;
 
+
   header{
     border-bottom: 3px solid $couleurPrincipale;
     margin-bottom: 25px;
@@ -38,11 +39,6 @@
   }
 
 
-
-
-
-
-
 #espaceImg>img{
   margin:1%;
 }
@@ -75,4 +71,8 @@
   width: 15%;
   position: relative;
   left: 25%;
+}
+
+.framework {
+  border-right: 2px solid $couleurSecondaire;
 }

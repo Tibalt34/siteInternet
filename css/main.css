@@ -106,7 +106,7 @@ h1 {
   top: 70px; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: red;
+  color: #e50043;
   background-color: transparent; }
 
 #Presentation {
@@ -166,7 +166,7 @@ h1 {
   padding: 4%;
   text-align: left;
   box-shadow: -20px 15px 0px #71a1e1;
-  font-size: 15px; }
+  font-size: 1.4em; }
 
 .separation {
   border-bottom: 1px solid black;
@@ -188,7 +188,7 @@ h1 {
       padding-top: 25px;
       font-size: 40px; }
   #couleur-langage h2 {
-    font-size: 15px;
+    font-size: 1.4em;
     margin-left: 20px;
     font-family: "GeosansLight"; }
   #couleur-langage div {
@@ -199,7 +199,7 @@ h1 {
       padding-bottom: 40px;
       color: #444444;
       font-family: "GeosansLight";
-      font-size: 15px; }
+      font-size: 1.4em; }
   #couleur-langage article > h3 {
     font-size: 40px; }
 
@@ -230,6 +230,9 @@ h1 {
   position: relative;
   left: 25%; }
 
+.framework {
+  border-right: 2px solid #a3c6f5; }
+
 #presse {
   background-color: rgba(113, 161, 225, 0.5);
   background-image: url(../img/presse.jpg);
@@ -237,7 +240,7 @@ h1 {
   padding-bottom: 50px;
   color: white;
   font-family: "GeosansLight";
-  font-size: 15px; }
+  font-size: 1.4em; }
   #presse h2.revue {
     text-align: center;
     font-family: "Coolvetica";
@@ -491,6 +494,6 @@ a {
   font-size: 40px; }
 
 h3 {
-  font-size: 15px; }
+  font-size: 1.4em; }
 
 /*# sourceMappingURL=main.css.map */
