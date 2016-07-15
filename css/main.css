@@ -495,18 +495,11 @@ a {
 
 .soulignement {
   margin: 10px auto 30px;
-  padding: 0;
   max-width: 512px;
-  border: 0;
   border-top: solid 5px;
-  text-align: center;
   border-color: #71a1e1; }
 
-.soulignement:after {
-  display: inline-block;
-  position: relative; }
-
-#footerParte {
+#copy {
   margin-top: 20px;
   background-color: #a3c6f5;
   height: 150px;
@@ -519,5 +512,8 @@ a {
 
 h3 {
   font-size: 1.4em; }
+
+#divpartenaire > img {
+  margin: 1em; }
 
 /*# sourceMappingURL=main.css.map */
