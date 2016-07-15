@@ -46,6 +46,7 @@ arrow();
 
 	var nom = $((profilsDiv)[index]).attr("name");
 
+
 	$("#carouzel").css({left : -(index*277)+"px"});
 	$(profilAfficher).hide();
 	$("#profils div[name="+nom+"]").show();

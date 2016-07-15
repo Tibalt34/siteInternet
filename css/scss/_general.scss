@@ -44,3 +44,8 @@ $maj : uppercase;
 /*----------taille police Article---------------*/
 $tailleArticle : 15px;
 /*-------fin police-----------*/
+
+/*-----CouleurBody-------*/
+body{
+  background-color:$couleurBackground;
+}
