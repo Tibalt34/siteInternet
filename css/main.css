@@ -342,7 +342,7 @@ h1 {
   background-color: #a3c6f5;
   text-align: center; }
 
-#containerPromotion img {
+table img {
   width: 30px; }
 
 #containerPromotion td {
@@ -406,11 +406,8 @@ ul.logopres {
   height: 463px; }
 
 #tablette {
-  position: relative;
-  z-index: 8000;
-  background-image: url(../img/tablette.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: absolute;
+  z-index: 13;
   width: 316px;
   height: 463px; }
 
@@ -421,6 +418,7 @@ ul.logopres {
   width: 4986px;
   position: relative;
   left: 0;
+  z-index: 12;
   transition: left 2s;
   font-size: 0; }
 
@@ -446,10 +444,11 @@ a:hover {
   cursor: pointer; }
 
 .arrow {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: absolute;
-  top: 45%; }
+  z-index: 15;
+  top: 47%; }
 
 [name="gauche"] {
   left: 22px; }
@@ -477,7 +476,8 @@ a:hover {
   justify-content: space-around;
   width: 90%;
   margin: auto;
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
 
 @media only screen and (max-device-width: 700px) {
   .contact {
@@ -502,18 +502,11 @@ a {
 
 .soulignement {
   margin: 10px auto 30px;
-  padding: 0;
   max-width: 512px;
-  border: 0;
   border-top: solid 5px;
-  text-align: center;
   border-color: #71a1e1; }
 
-.soulignement:after {
-  display: inline-block;
-  position: relative; }
-
-#footerParte {
+#copy {
   margin-top: 20px;
   background-color: #a3c6f5;
   height: 150px;
@@ -526,5 +519,8 @@ a {
 
 h3 {
   font-size: 1.6em; }
+
+#divpartenaire > img {
+  margin: 1em; }
 
 /*# sourceMappingURL=main.css.map */
