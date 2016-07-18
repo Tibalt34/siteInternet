@@ -121,7 +121,7 @@ h1 {
   #Presentation h1 {
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 4em;
     padding-top: 10px;
     padding-bottom: 20px; }
   #Presentation div {
@@ -132,7 +132,7 @@ h1 {
       text-align: center;
       font-size: 20px; }
       #Presentation div article p {
-        font-size: 15px; }
+        font-size: 1.2em; }
   #Presentation #footerPres {
     position: relative;
     bottom: 420px;
@@ -149,7 +149,7 @@ h1 {
 /**********partie formation**********/
 .titreformation > h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 4em;
   text-transform: uppercase;
   font-family: "Coolvetica"; }
 
@@ -170,7 +170,7 @@ h1 {
   padding: 4%;
   text-align: left;
   box-shadow: -20px 15px 0px #71a1e1;
-  font-size: 1.4em; }
+  font-size: 1.6em; }
 
 .separation {
   border-bottom: 1px solid black;
@@ -184,17 +184,19 @@ h1 {
   #couleur-langage header {
     border-bottom: 3px solid #71a1e1;
     margin-bottom: 25px;
-    margin-right: 25%;
-    margin-left: 25%; }
+    margin-right: 20%;
+    margin-left: 20%; }
     #couleur-langage header h2 {
       text-align: center;
       padding-bottom: 15px;
       padding-top: 25px;
-      font-size: 40px; }
+      font-size: 3.2em;
+      font-family: "Coolvetica";
+      text-transform: uppercase; }
   #couleur-langage h2 {
-    font-size: 1.4em;
     margin-left: 20px;
-    font-family: "GeosansLight"; }
+    font-family: "GeosansLight";
+    font-size: 1.6em; }
   #couleur-langage div {
     display: flex;
     flex-direction: row; }
@@ -202,10 +204,9 @@ h1 {
       text-align: center;
       padding-bottom: 40px;
       color: #444444;
-      font-family: "GeosansLight";
-      font-size: 1.4em; }
+      font-family: "GeosansLight"; }
   #couleur-langage article > h3 {
-    font-size: 40px; }
+    font-size: 4em; }
 
 #espaceImg > img {
   margin: 1%; }
@@ -243,17 +244,16 @@ h1 {
   background-size: cover;
   padding-bottom: 50px;
   color: white;
-  font-family: "GeosansLight";
-  font-size: 1.4em; }
+  font-family: "GeosansLight"; }
   #presse h2.revue {
     text-align: center;
     font-family: "Coolvetica";
-    font-size: 40px;
+    font-size: 4em;
     margin-top: 0;
     padding-top: 15px; }
   #presse h3.texte-revue {
     text-align: center;
-    font-size: 22px;
+    font-size: 1.9em;
     padding-bottom: 15px; }
   #presse #imgPresse {
     display: flex;
@@ -271,7 +271,10 @@ h1 {
         margin-top: 35px; }
       #presse #imgPresse div p {
         margin-top: 50px;
-        height: auto; }
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.6em; }
       #presse #imgPresse div header {
         display: flex;
         float: right;
@@ -289,7 +292,7 @@ h1 {
         top: 20px;
         left: 50px;
         width: 75%;
-        height: 330px; }
+        height: 370px; }
       #presse #imgPresse .tvsud {
         margin-bottom: 20px; }
       #presse #imgPresse .midilibre {
@@ -305,7 +308,7 @@ h1 {
 
 .titrePromotion > h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 4em;
   text-transform: uppercase;
   font-family: "Coolvetica";
   padding-bottom: 30px;
@@ -455,10 +458,13 @@ a:hover {
 
 #contact {
   text-align: center;
-  font-size: 40px; }
+  font-size: 4em; }
 
 .infos {
   margin-top: 10px; }
+
+.infos a {
+  font-size: 1em; }
 
 .contact {
   padding-top: 20px;
@@ -470,7 +476,8 @@ a:hover {
   justify-content: space-around;
   width: 90%;
   margin: auto;
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
 
 @media only screen and (max-device-width: 700px) {
   .contact {
@@ -487,25 +494,19 @@ a {
   padding-top: 60px; }
   #sectionContact li {
     text-align: center;
-    width: 300px; }
+    width: 300px;
+    font-size: 1.6em; }
 
 .partenaire {
   text-align: center; }
 
 .soulignement {
   margin: 10px auto 30px;
-  padding: 0;
   max-width: 512px;
-  border: 0;
   border-top: solid 5px;
-  text-align: center;
   border-color: #71a1e1; }
 
-.soulignement:after {
-  display: inline-block;
-  position: relative; }
-
-#footerParte {
+#copy {
   margin-top: 20px;
   background-color: #a3c6f5;
   height: 150px;
@@ -514,9 +515,12 @@ a {
   padding: 100px; }
 
 #divpartenaire > h2 {
-  font-size: 40px; }
+  font-size: 4em; }
 
 h3 {
-  font-size: 1.4em; }
+  font-size: 1.6em; }
+
+#divpartenaire > img {
+  margin: 1em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,19 +7,22 @@
   header{
     border-bottom: 3px solid $couleurPrincipale;
     margin-bottom: 25px;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 20%;
+    margin-left: 20%;
     h2{
       text-align: center;
       padding-bottom: 15px;
       padding-top: 25px;
-      font-size: $tailleTitre;
+      font-size: 3.2em;
+      font-family: $fontTitle;
+      text-transform: uppercase;
      }
     }
     h2{
-      font-size: $tailleArticle;
+
       margin-left: 20px;
       font-family:$fontTexte;
+      font-size: $tailleArticle;
     }
     div{
         display: flex;
@@ -30,7 +33,6 @@
         padding-bottom: 40px;
         color: $couleurTexte;
         font-family: $fontTexte;
-        font-size:$tailleArticle;
       }
     }
     article > h3{
