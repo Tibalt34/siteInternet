@@ -470,6 +470,7 @@ a:hover {
   right: 25px; }
 
 #contact {
+  margin-left: -1%;
   text-align: center;
   font-size: 4em; }
 
@@ -499,15 +500,31 @@ a:hover {
   color: black;
   font-size: 15px; }
 
+.items a {
+  font-size: 20px;
+  text-decoration: none; }
+
 a {
   text-decoration: none;
   color: black; }
 
+.contactdesactive {
+  display: none; }
+
+@media (min-width: 768px) {
+  .contactdesactive {
+    display: block; }
+
+  .contactactive {
+    display: none; }
+
+  .contact {
+    margin-left: -6%; } }
 #sectionContact {
   padding-top: 60px; }
   #sectionContact li {
     text-align: center;
-    width: 300px;
+    width: 100%;
     font-size: 1.6em; }
 
 .partenaire {
