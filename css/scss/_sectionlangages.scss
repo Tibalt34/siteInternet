@@ -53,6 +53,18 @@
   margin-top: 40px;
 }
 
+div.groupe1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:150px;
+    margin:auto;
+    img{
+        width: 65px;
+        height: 65px;
+    }
+}
+
 .langages>img{
   width: 15%;
   position: relative;
