@@ -3,6 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
+  display: none;
 }
 
 .opaque{
@@ -28,4 +29,10 @@
   height: 60px;
   border-radius: 30px;
   border: 2px solid $couleurPrincipale;
+}
+
+@media (min-width: 768px){
+  #entete{
+    display: block;
+  }
 }

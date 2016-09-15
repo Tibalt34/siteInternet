@@ -36,3 +36,9 @@ font-size: $tailleArticle;
   margin-left: 10%;
   margin-right:10%;
 }
+
+@media (max-width:768px){
+  .texte>p{
+  box-shadow:0px 0px 0px;
+  }
+}
