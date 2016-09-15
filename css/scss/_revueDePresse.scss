@@ -41,11 +41,11 @@
         font-size: $tailleArticle;
         color:white;
       }
-     
+
       header{
         display: flex;
         justify-content: space-around;
-        
+
       }
       .midi-libre{
         margin-top: 0%;
@@ -59,7 +59,7 @@
       }
     }
   }
-  @media (max-width: 767px){
+  @media (max-width: 768px){
   #imgPresse{
     display: block;//sur les 3 articles
     div{
@@ -67,7 +67,7 @@
       top: 20px;
       left: 50px;
       width: 75%;
-      height: 370px;
+      height: 40%;
     }
     .tvsud{
       margin-bottom: 20px;
