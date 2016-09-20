@@ -90,3 +90,25 @@ div.groupe1 {
 .framework {
   border-right: 2px solid $couleurSecondaire;
 }
+
+@media (max-width:768px){
+  #couleur-langage div {
+    display: flex;
+    flex-direction: column;
+}
+#couleur-langage div .groupe1{
+  display: block;
+}
+
+.langages{
+  width: 100%;
+}
+
+.outils{
+  width: 100%;
+}
+
+.framework {
+  width: 100%
+}
+}

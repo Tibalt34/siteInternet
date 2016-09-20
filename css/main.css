@@ -31,7 +31,8 @@ body {
   background-image: url("../img/photoclasse.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px; }
+  height: 700px;
+  display: none; }
 
 .opaque {
   width: 100%;
@@ -55,6 +56,9 @@ body {
   border-radius: 30px;
   border: 2px solid #71a1e1; }
 
+@media (min-width: 768px) {
+  #entete {
+    display: block; } }
 #logoMenu {
   margin-top: -2px;
   margin-left: 5px;
@@ -138,7 +142,7 @@ h1 {
     bottom: 420px;
     text-align: center; }
 
-@media screen and (min-width: 0px) and (max-width: 992px) {
+@media (max-width: 992px) {
   #Presentation {
     height: auto; }
     #Presentation div {
@@ -177,6 +181,9 @@ h1 {
   margin-left: 10%;
   margin-right: 10%; }
 
+@media (max-width: 768px) {
+  .texte > p {
+    box-shadow: 0px 0px 0px; } }
 #couleur-langage {
   background-color: #e8edfa;
   padding-bottom: 45px;
@@ -248,6 +255,22 @@ div.groupe1 {
 .framework {
   border-right: 2px solid #a3c6f5; }
 
+@media (max-width: 768px) {
+  #couleur-langage div {
+    display: flex;
+    flex-direction: column; }
+
+  #couleur-langage div .groupe1 {
+    display: block; }
+
+  .langages {
+    width: 100%; }
+
+  .outils {
+    width: 100%; }
+
+  .framework {
+    width: 100%; } }
 #presse {
   background-color: rgba(113, 161, 225, 0.5);
   background-image: url(../img/presse.jpg);
@@ -297,7 +320,7 @@ div.groupe1 {
         height: 20%;
         padding: 0px;
         padding-bottom: 5%; }
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     #presse #imgPresse {
       display: block; }
       #presse #imgPresse div {
@@ -305,7 +328,7 @@ div.groupe1 {
         top: 20px;
         left: 50px;
         width: 75%;
-        height: 370px; }
+        height: 40%; }
       #presse #imgPresse .tvsud {
         margin-bottom: 20px; }
       #presse #imgPresse .midilibre {
@@ -469,6 +492,181 @@ a:hover {
 [name="droite"] {
   right: 25px; }
 
+@media screen and (max-width: 1280px) {
+  #sectionPromotion {
+    background-color: #e8edf3;
+    padding-bottom: 5%;
+    padding-top: 60px; }
+
+  .titrePromotion {
+    background-color: white; }
+
+  .titrePromotion > h2 {
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: "Coolvetica";
+    padding-bottom: 30px;
+    padding-top: 15px; }
+
+  #containerPromotion {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 2%;
+    justify-content: space-around;
+    font-family: "GeosansLight";
+    font-size: 1.4em; }
+
+  .imglogo {
+    float: right; }
+
+  #profils .descrilogo {
+    width: 55px;
+    padding-right: 15px;
+    margin-top: 65px; }
+
+  #profils .lienpf {
+    padding-top: 55px; }
+
+  #containerPromotion th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    background-color: #a3c6f5;
+    text-align: center; }
+
+  table img {
+    width: 30px; }
+
+  #containerPromotion td {
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    background-color: #71a1e1; }
+
+  #containerPromotion td a {
+    color: white; }
+
+  #liste {
+    width: 430px; }
+
+  /* This property hide the add who share the link of portfolio and social network */
+  #profils {
+    display: none; }
+
+  ul.logopres {
+    position: absolute;
+    width: 240px;
+    right: 0;
+    bottom: 0; }
+
+  .logopres li {
+    list-style-type: none;
+    display: inline; }
+
+  #profils h2 {
+    text-align: center;
+    padding-bottom: 20px; }
+
+  #profils a:hover {
+    color: white;
+    text-decoration: none; }
+
+  #profils div {
+    position: absolute;
+    display: none;
+    height: 350px;
+    width: 380px; }
+
+  #profils div[name="fabrice"] {
+    display: block; }
+
+  #containerCarouzel {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    width: 310px;
+    height: 463px; }
+
+  #tablette {
+    position: absolute;
+    z-index: 13;
+    width: 316px;
+    height: 463px; }
+
+  .ligneB {
+    border-right: 1px solid white !important; }
+
+  #carouzel {
+    width: 4986px;
+    position: relative;
+    left: 0;
+    z-index: 12;
+    transition: left 2s;
+    font-size: 0; }
+
+  #carouzel div {
+    display: inline-block;
+    position: relative;
+    z-index: -100;
+    top: 59px;
+    left: 18px;
+    width: 277px;
+    height: 356px;
+    border: 1px solid black; }
+
+  #carouzel img {
+    width: 277px;
+    height: 356px; }
+
+  /*#carouzel div .tablet{
+    margin-left: 30px;
+    width: 340px;
+  }*/
+  a:hover {
+    cursor: pointer; }
+
+  .arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 15;
+    top: 47%; }
+
+  [name="gauche"] {
+    left: 22px; }
+
+  [name="droite"] {
+    right: 25px; }
+
+  .imglogo {
+    float: right;
+    display: block; } }
+/*
+    ce code agis quand on passe en version mobile,
+    il cache le caroussel et le panneau d'infos avec les liens des portfolios et des réseaux sociaux.
+*/
+@media screen and (max-width: 834px) {
+  #containerCarouzel {
+    display: none; }
+
+  #liste {
+    width: 100%; }
+
+  #containerPromotion {
+    width: 100%;
+    margin: 0px; }
+
+  #containerPromotion {
+    display: block; }
+
+  .imglogo {
+    float: right;
+    display: block; } }
 #contact {
   margin-left: -1%;
   text-align: center;
