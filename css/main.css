@@ -89,7 +89,7 @@ li a {
   -o-border-image: -o-linear-gradient(bottom, #71a1e1, #e50043) 1 100%;
   border-image: linear-gradient(to bottom, #71a1e1, #e50043) 1 100%; }
 
-.separationmenu:nth-child(2) {
+.separationmenu:nth-child(2n) {
   border-right-width: 3px;
   border-right-style: solid;
   -webkit-border-image: -webkit-gradient(linear, 0 0, 100% 0, from(#71a1e1), to(rgba(229, 0, 67, 0))) 1 100%;
@@ -763,5 +763,36 @@ h3 {
 
 #divpartenaire > img {
   margin: 1em; }
+
+#livredor h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: "Coolvetica"; }
+
+.textalign {
+  text-align: center; }
+
+.box {
+  width: 80%;
+  margin: auto;
+  background-color: #a3c6f5;
+  padding: 4%;
+  box-shadow: 20px 15px 0px #71a1e1;
+  text-align: left;
+  font-size: 1.6em;
+  margin-top: 20px; }
+  .box p {
+    width: 80%;
+    margin: auto; }
+
+span {
+  display: block;
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 1.5em; }
+
+@media (max-width: 768px) {
+  .box {
+    box-shadow: 0px 0px 0px; } }
 
 /*# sourceMappingURL=main.css.map */

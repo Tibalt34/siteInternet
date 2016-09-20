@@ -39,7 +39,7 @@ li a{
   border-image:
     linear-gradient(to bottom, $couleurPrincipale, rgba(229, 0, 67, 1)) 1 100%;
 }
-.separationmenu:nth-child(2){
+.separationmenu:nth-child(2n){
   border-right-width: 3px;
   border-right-style: solid;
   -webkit-border-image:
