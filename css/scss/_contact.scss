@@ -20,7 +20,7 @@
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 100%;
   margin: auto;
   list-style: none;
   padding-left: 0;
@@ -58,8 +58,16 @@ a{
   .contactactive{
     display: none;
   }
+}
+@media (min-width:1024px) {
   .contact{
-  margin-left: -6%;
+    margin-left: -130px;
+  }
+
+}
+@media (max-width:768px) {
+  .contact{
+    display: block;
   }
 }
 
