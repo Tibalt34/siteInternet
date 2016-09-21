@@ -655,7 +655,8 @@ a:hover {
     display: none; }
 
   #liste {
-    width: 100%; }
+    width: 100%;
+    font-size: 16px; }
 
   #containerPromotion {
     width: 100%;
