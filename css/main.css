@@ -727,7 +727,7 @@ a {
     display: none; } }
 @media (min-width: 1024px) {
   .contact {
-    margin-left: -160px; } }
+    margin-left: -130px; } }
 @media (max-width: 768px) {
   .contact {
     display: block; } }
