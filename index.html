@@ -19,6 +19,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="./script/script.js"></script>
 		<script src="./script/smoothscroll.js"></script>
+		<script src="./script/formulaireAjax.js"></script>
 
                 <script  src="./script/scriptPromo.js"></script>
 		<link rel="stylesheet" href="./css/main.css">
@@ -531,6 +532,29 @@
               <li class="items map"><a href="https://www.google.fr/maps/place/33+Rue+Jean+Jacques+Rousseau,+34400+Lunel/@43.6759607,4.131293,17z/data=!3m1!4b1!4m5!3m4!1s0x12b69e8a5603425b:0x5355ea871efcab0c!8m2!3d43.6759607!4d4.1334817"><img src="img/place.png"><br><div class="infos">33 rue Jean Jacques Rousseau, 34400 Lunel</div></a></li>
               <li class="items"><a href="mailto:beWeb@fondespierre.com"><img src="img/enveloppe.png"><br><div class="infos">beWeb@fondespierre.com</div></a></li>
             </ul>
+
+						<div class="form-marg" id="form_contact">
+						<form action="http://fabrique-beweb.fr/process.php" id="contactForm" method="POST">
+							<p>
+								<input id="nom" placeholder="Votre nom" name="nom" type="text">
+
+								<input id="email" placeholder="E-mail: vous@exemple.com" name="email" type="email">
+									<br /><span id="msg_nom"></span><span id="msg_email"></span>
+							</p>
+							<p>
+								<textarea class="message-area" id="message" placeholder="Votre message" name="message" rows="12" cols="68"></textarea>
+									<br /><span id="msg_message"></span>
+							</p>
+							<p>
+								<input class="boutonSend" id="send" type="submit" value="Envoyer"/>
+							</p>
+					</form>
+				<span id="msg_all"></span>
+					<p class="confirmMsg" id="confirm"></p>
+			</div>
+		</div>
+<!-- Fin du formulaire -->
+
           </section>
 
               <!-- section partenaire -->
