@@ -13,12 +13,31 @@
 
 /////// partie du Copyright /////////
 #copy{
-  margin-top: 20px; // marge entre le texte et le footer
   background-color: #a3c6f5; // couleur du fon du footer
   height: 150px; // hauteur du footer
   text-align: center; // alignement du texte du footer
   letter-spacing: 5px; // permet de faire un ecare entre les lettre d'un text
   padding: 100px;
+}
+@media (min-width:320px) and (max-width:375px) {
+  #copy p{
+    margin-top: -35%;
+  }
+}
+@media (min-width:375px) and (max-width:425px) {
+  #copy p{
+    margin-top: -20%;
+  }
+}
+@media (min-width:425px) and (max-width:768px) {
+  #copy p{
+    margin-top: -10%;
+  }
+}
+@media (min-width:768px){
+  #copy p{
+    margin-top: 0%;
+  }
 }
 /////// fin de la partie du Copyright /////////
 
