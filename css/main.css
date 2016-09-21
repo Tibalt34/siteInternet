@@ -209,13 +209,16 @@ h1 {
       text-align: center;
       padding-bottom: 15px;
       padding-top: 25px;
-      font-size: 3.2em;
+      font-size: 2.5em;
       font-family: "Coolvetica";
-      text-transform: uppercase; }
-  #couleur-langage h2 {
-    margin-left: 20px;
-    font-family: "GeosansLight";
-    font-size: 1.6em; }
+      text-transform: uppercase;
+      margin-left: 20px;
+      font-family: "GeosansLight"; }
+  #couleur-langage #textlang {
+    text-align: justify;
+    font-size: 1.6em;
+    width: 90%;
+    margin: auto; }
   #couleur-langage div {
     display: flex;
     flex-direction: row; }
@@ -226,9 +229,6 @@ h1 {
       font-family: "GeosansLight"; }
   #couleur-langage article > h3 {
     font-size: 4em; }
-
-#espaceImg > img {
-  margin: 1%; }
 
 .langages {
   padding-top: 40px;
@@ -246,23 +246,10 @@ div.groupe1 {
     width: 65px;
     height: 65px; }
 
-.langages > img {
-  width: 15%;
-  position: relative;
-  left: 25%; }
-
-#espaceImg2 > img {
-  margin: 1%; }
-
 .outils {
   width: 50%;
   padding-top: 40px;
   margin-top: 40px; }
-
-.outils > img {
-  width: 15%;
-  position: relative;
-  left: 25%; }
 
 .framework {
   border-right: 2px solid #a3c6f5; }
